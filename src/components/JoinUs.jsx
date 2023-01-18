@@ -21,8 +21,7 @@ const JoinUs = () => {
       <h4 className="heading-4">our shop</h4>
       <h2 className="heading-2">always near you</h2>
       <p className="join-us__content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam possimus
-        eius at cumque soluta quisquam velit beatae consequatur nemo libero
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. quisquam velit beatae consequatur nemo libero
         sequi ab iure.
       </p>
 
