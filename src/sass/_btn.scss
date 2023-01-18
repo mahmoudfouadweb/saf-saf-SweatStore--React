@@ -1,25 +1,41 @@
+.cta{
+  border: 2px solid #333;
+  padding: .8rem 3.5rem;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: $color-primary-dark;
+  letter-spacing: 1.5px;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  
+  &:hover{
+    
+    &::after{
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      border: 1px solid #333;
+      background-color: $color-primary-light;
+      z-index: -1;
+    }
+  }
 
-// .btn {
-//   padding: 1.5rem 4rem;
-//   border-radius: 100px;
-//   cursor: pointer;
   
+  &::after{
+    content: '';
+    display: block;
+    padding: .8rem 3.5rem;
+    width: 104%;
+    height: 113.4%;
+    border: 2px solid #333;
+    position: absolute;
+    top: .2rem;
+    left: .2rem;
+    transition: all .2s ease-out;
   
-//   &-secondary {
-//     background-color: transparent;
-//     color: $color-bg-primary;
-//     border: 1px solid $color-bg-primary;
-//   }
-//   &-primary {
-//     background-color: $color-bg-primary;
-
-//     border: none;
-//   }
-  
-//   &-card{
-//     border: 1px solid #fff;
-//     background-color: transparent;
-//     border-radius: 100px;
-//     padding: 1rem 2rem;
-//   }
-// }
+  }
+}

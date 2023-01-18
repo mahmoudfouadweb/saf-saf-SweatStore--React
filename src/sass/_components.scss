@@ -2,33 +2,271 @@
 ///// Home
 /// Feature
 
-.feature{
+.feature {
   grid-column: 1 /-1;
   background-color: $color-primary-light;
   padding: 10rem 4rem;
   align-items: center;
-  
-  &__arr-left{
+
+  &__arr-left {
     grid-column: 1 / span 1;
     justify-self: start;
     width: 4rem;
     height: 4rem;
     color: $color-primary-dark;
-    
   }
-  
-  &__img{
+
+  &__img {
     grid-column: 2 / span 1;
+    grid-row: 1 / -1;
     justify-self: center;
-    
   }
-  
-  &__arr-right{
+
+  &__title {
+    grid-column: 2 / span 1;
+    grid-row: 1 / -1;
+    justify-self: center;
+    color: $color-primary-dark;
+    font-size: 6rem;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__arr-right {
     grid-column: 3 / -1;
     justify-self: end;
     width: 4rem;
     height: 4rem;
     color: $color-primary-dark;
   }
+}
+
+// //////////////////////////////////////////////////////
+/// Coffee
+
+.glaty {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+
+  &__img {
+    grid-column: 1 / span 1;
+
+    max-width: 100%;
+    object-fit: fill;
+  }
+
+  &__box {
+    grid-column: 2 / -1;
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-content: center;
+    margin-left: 5rem;
+    .heading-4 {
+      grid-column: 1 / -1;
+      text-align: center;
+      color: #ddd;
+      margin-bottom: 1rem;
+    }
+
+    .heading-2 {
+      grid-column: 1 / -1;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    
+    button{
+      grid-column: 1 / -1;
+      justify-self: center;
+      margin-top: 6rem;
+    }
+  }
+
+  &__items {
+    grid-column: 2 / -2;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    row-gap: 2.5rem;
+    margin-top: 2rem;
+
+    .glaty__item {
+      display: grid;
+      max-width: 80%;
+      grid-template-columns: repeat(2, max-content);
+      justify-content: space-between;
+      list-style: none;
+
+      &--name {
+        grid-column: 1 / span 1;
+        font-size: 1.4rem;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      span {
+        display: block;
+        grid-column: 2 / -1;
+        font-size: 1.4rem;
+        font-weight: 500;
+        justify-self: end;
+      }
+
+      &--details {
+        text-transform: lowercase;
+        grid-column: 1 / -1;
+        font-size: 1.2rem;
+        color: $color-grey-light-2;
+      }
+    }
+  }
+}
+
+// //////////////////////////////////////////////////////
+/// Ice-cream
+.ice-cream{
+  grid-column:  1 / -1;
+  background-color: $color-primary-dark;
+  padding: 8rem 2rem ;
+  color: #ddd;
+  font-weight: 600;
+  font-size: 1.8rem;
   
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+  
+  &__arr-left{
+    grid-column: 1 / span 1;
+    color: $color-primary-light;
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  &__box{
+    grid-column: 2 / span 1;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+  }
+  
+  &__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+  }
+  
+  &__img{
+    margin-bottom: 1rem;
+  }
+  
+  &__title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  &__discription{
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+  
+  &__price{
+    
+  }
+  
+  
+  
+  
+  &__arr-right{
+    grid-column: -2 / span 1;
+    color: $color-primary-light;
+    width: 4rem;
+    height: 4rem;
+    
+  }
+}
+
+
+.coffee {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+
+  &__img {
+    grid-column: 2 / -1;
+
+    max-width: 100%;
+    object-fit: fill;
+  }
+
+  &__box {
+    grid-column: 1 / span 1;
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-content: center;
+    margin-left: 5rem;
+    .heading-4 {
+      grid-column: 1 / -1;
+      text-align: center;
+      color: #ddd;
+      margin-bottom: 1rem;
+    }
+
+    .heading-2 {
+      grid-column: 1 / -1;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    button{
+      grid-column: 1 / -1;
+      justify-self: center;
+      margin-top: 6rem;
+    }
+  }
+
+  &__items {
+    grid-column: 2 / -2;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    row-gap: 2.5rem;
+    margin-top: 2rem;
+
+    .coffee__item {
+      display: grid;
+      max-width: 80%;
+      grid-template-columns: repeat(2, max-content);
+      justify-content: space-between;
+      list-style: none;
+
+      &--name {
+        grid-column: 1 / span 1;
+        font-size: 1.4rem;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+
+      span {
+        display: block;
+        grid-column: 2 / -1;
+        font-size: 1.4rem;
+        font-weight: 500;
+        justify-self: end;
+      }
+
+      &--details {
+        text-transform: lowercase;
+        grid-column: 1 / -1;
+        font-size: 1.2rem;
+        color: $color-grey-light-2;
+      }
+    }
+  }
 }

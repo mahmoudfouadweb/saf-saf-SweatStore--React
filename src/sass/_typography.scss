@@ -14,7 +14,8 @@
 .heading-2 {
     @extend %heading;
     font-size: 4.8rem;
-    font-weight: 700;
+    font-weight: 500;
+    text-transform: uppercase;
     line-height: 1;
 
     &--light { color: $color-grey-light-1; }
@@ -30,8 +31,8 @@
 
 .heading-4 {
     @extend %heading;
-    font-size: 3.6rem; //2rem
-    font-weight: 700;
+    font-size: 2rem; //2rem
+    font-weight: 300;
 
 
     &--light { color: $color-grey-light-1; }
