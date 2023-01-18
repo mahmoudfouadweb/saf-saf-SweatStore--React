@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap");
+
+.app {
+  // text-align: center;
+}
+
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+
+  // @media only screen and (max-width: $bp-largest) {
+  //   font-size: 50%;
+  // }
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 300;
+  line-height: 1.6;
+  background-color: #181A20;
+  color:  $color-bg-secondary-light-1;
+  
+}
+
+

@@ -1,0 +1,96 @@
+.whats-hot {
+
+  grid-column: 3 / -1;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width:max-content;
+  gap: 2rem;
+  margin-bottom: 4rem;
+
+  .card {
+    display: grid;
+    grid-template-columns: max-content  1fr 1fr;
+    grid-template-rows: 1fr repeat(3, max-content);
+    cursor: pointer;
+    max-width: 32.3rem;
+    
+    &__thumbnail{
+      grid-column: 1 / -1;
+      grid-row: 1 / -1;
+      
+    }
+    
+    &__icon{
+      grid-column: 3 / -1;
+      grid-row: 1 / 2;
+      justify-self: end;
+      margin: 1.5rem 1.5rem 0 0;
+      
+    }
+
+    &__content{
+      height: 16.5rem;
+      grid-column: 2 / center-end;
+      grid-row: 2 / -1;
+      padding: 2rem;
+
+      display: grid;
+      grid-template-columns: min-content 1fr min-content;
+      column-gap: 1rem;
+      row-gap: 1rem;
+      
+      background-color: #181A2070;
+      backdrop-filter: blur(25px);
+    }
+    
+    &__red{
+      grid-column: 1 / span 1;
+      grid-row: 1 / span 1;
+    }
+    
+    &__name{
+      grid-column: 2 / span 1;
+      grid-row: 1 / span 1;
+      text-align: start;
+      font-size: 1.4rem;
+      font-weight: 400;
+      
+      
+    }
+    
+    &__type {
+      grid-column: 3 / -1;
+      grid-row: 1 / span 1;
+      font-size: 1.4rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: $color-grey-light;
+    }
+    
+    &__title{
+      grid-column: 1 / span 2;
+      grid-row: 2 / span 1;
+      text-align: start;
+      font-size: 2.8rem;
+      font-weight: 600;
+    }
+    
+    &__rate{
+      grid-column: 3 / -1;
+      grid-row: 2 / span 1;
+      font-size: 2.8rem;
+      font-weight: 600;
+    } 
+      
+    .btn-card{
+      grid-column: 1 /-1;
+      grid-row: 3 / span 1;
+      color:#fff;
+      font-size: 1.6rem;
+      font-weight: 500;
+      
+    }
+    
+  }
+}

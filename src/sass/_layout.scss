@@ -1,0 +1,32 @@
+.app{
+  max-width: 160rem;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+
+.container {
+  max-width: 144rem;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: [left-start] 50vw [left-end right-start] 50vw [right-end];
+  
+}
+
+.congratulation{
+  grid-column: 1 / -1;
+  align-self: center;
+  justify-self: center;
+  
+  display: grid;
+  grid-template-columns:[full-start] max-content [center-start ] repeat(8, 1fr) [center-end] 1fr [full-end];
+  justify-items: center;
+}
+
+.home{
+  display: grid;
+  grid-template-columns: [sidebar-start full-start] minmax(25rem , 1fr) [sidebar-end center-start] repeat(10, 1fr) [center-end] minmax(10vw , 1fr) [full-end];
+  grid-template-rows: 7.2rem  1fr max-content;
+  overflow-x: hidden;
+  row-gap: 0.5rem;
+}

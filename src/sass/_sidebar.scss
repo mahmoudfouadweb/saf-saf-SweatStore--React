@@ -1,0 +1,47 @@
+.sidebar {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  padding-top: 2.4rem;
+  background: linear-gradient(180deg, #151518 0%, rgba(45, 43, 56, 0) 100%);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  &__container {
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    row-gap: 2rem;
+    
+    .line{
+      height: 1px;
+      background-color: $colorLine-Stroke-default;
+      width: 80%;
+    }
+  }
+
+  &__link {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;
+    
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff99;
+
+    & svg {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+    
+    &.active{
+      color: $color-bg-primary;
+    }
+  }
+}
