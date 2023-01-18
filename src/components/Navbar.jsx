@@ -16,9 +16,6 @@ const Navbar = () => {
         <li className="nav__item"><a href="#" className="nav__link">About us</a></li>
       </ul>
       
-
-
-      
       <div className="nav__order-box">
       <BsCart3 className='nav__cart'/>
       <button className="cta btn btn--primary">Order</button>
