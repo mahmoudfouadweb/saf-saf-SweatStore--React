@@ -1,7 +1,79 @@
 .nav{
+  grid-column: 1 / -1;
+  
   display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-right: 2rem;
+  
+  &__img-box{
+    display: flex;
+    align-items: center;
+    
+    img{
+      max-width: 8rem;
+      
+    }
+  }
+  
+  &__items{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    list-style: none;
+  }
+  
+  &__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-primary-dark;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
   
   &__logo{
+    justify-self: center;
+    width: 8rem;
+    height: auto;
+  }
+  
+  &__order-box{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
     
+    .nav__cart{
+      width: 2.4rem;
+      height: 2.4rem;
+      color: #333;
+    }
+    
+    button{
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+      border: 2px solid #333;
+      padding: 1rem 3rem;
+      text-transform: uppercase;
+      font-family: inherit;
+      font-size: 1.4rem;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      background-color: transparent;
+      position: relative;
+      cursor: pointer;
+      
+      &::after{
+        content: '';
+        display: block;
+        padding: 1rem 3rem;
+        width: 104%;
+        height: 113.4%;
+        border: 2px solid #333;
+        position: absolute;
+        top: .2rem;
+        left: .2rem;
+      }
+    }
   }
 }

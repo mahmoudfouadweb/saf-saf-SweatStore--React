@@ -1,10 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap");
-
-.app {
-  // text-align: center;
-}
-
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 *,
 *::before,
@@ -28,7 +22,8 @@ body {
   font-weight: 300;
   line-height: 1.6;
   background-color: #fff;
-  color:  $color-bg-secondary-light-1;
+  color: #333;
+  // color:  $color-bg-secondary-light-1;
   
 }
 
