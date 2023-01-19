@@ -191,7 +191,7 @@
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: 50% 1fr;
-  background-color: $color-grey-light-1;
+  background-color: #fff;
 
   &__img {
     grid-column: 2 / -1;
@@ -394,14 +394,14 @@
       background-color: #fff;
       border: none;
       cursor: pointer;
-      
-      &:hover{
-        span{
+
+      &:hover {
+        span {
           width: 100%;
-          transition: all .5s;
+          transition: all 0.5s;
         }
       }
-      
+
       span {
         display: inline-block;
         width: 50%;
@@ -414,4 +414,73 @@
       }
     }
   }
+}
+
+//////////////////////////////////
+/// Blog
+.blog {
+  grid-column: 1 / -1;
+  background-color: $color-primary-light;
+  padding-top: 8rem;
+  padding-bottom: 10rem;
+
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  column-gap: 4rem;
+
+  .heading-4 {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+  .heading-2 {
+    text-align: center;
+    grid-column: 1 / -1;
+    margin-bottom: 4rem;
+  }
+
+  &__card {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+    
+    &--img{
+      max-width: 100%;
+    }
+    
+    &--text{
+      font-size: 1.2rem;
+      font-weight: 300;
+      color: #555;
+      text-align: center;
+      
+    }
+    
+    .heading-5{
+      letter-spacing: 2px;
+    }
+    
+  }
+  
+  .one{
+    grid-column: 2 / span 2;
+    
+  }
+  .tow{
+    grid-column: 4 / span 2;
+    
+  }
+  .three{
+    grid-column: 6 / span 2;
+    
+  }
+  .four{
+    grid-column: 8 / span 2;
+    
+  }
+  
+  
+  
 }

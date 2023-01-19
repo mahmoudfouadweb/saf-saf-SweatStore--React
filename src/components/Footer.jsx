@@ -12,7 +12,6 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer__logo-box">
         <img src={logo} alt="logo" className="logo" />
-        <h2 className="footer__heading">Finay</h2>
       </div>
       <p className="footer__text">
         The only marketplace selling unreleased music, music videos, stems,
@@ -54,7 +53,7 @@ const Footer = () => {
       <div className="footer__line"></div>
 
       <div className="footer__copyright">
-        © 2022 Finay. All Rights Reserved.
+        © 2023 Saf Saf. All Rights Reserved. <br/>Made with ❤ MAHMOUD FOUAD web developer.
       </div>
       <ul className="footer__social-icons">
         <li>

@@ -8,8 +8,8 @@ const Blog = () => {
   return (
     <section className="blog">
       <h4 className="heading-4">read our blog</h4>
-      <h2 className="heading-4">all about our new flvors</h2>
-      <div className="blog__card">
+      <h2 className="heading-2">all about our new flvors</h2>
+      <div className="blog__card one">
         <img src={blog1} alt="" className="blog__card--img" />
         <h5 className="heading-5">berry bread</h5>
         <p className="blog__card--text">
@@ -17,7 +17,7 @@ const Blog = () => {
           quod.
         </p>
       </div>
-      <div className="blog__card">
+      <div className="blog__card tow">
         <img src={blog2} alt="" className="blog__card--img" />
         <h5 className="heading-5">berry bread</h5>
         <p className="blog__card--text">
@@ -25,7 +25,7 @@ const Blog = () => {
           quod.
         </p>
       </div>
-      <div className="blog__card">
+      <div className="blog__card three">
         <img src={blog3} alt="" className="blog__card--img" />
         <h5 className="heading-5">berry bread</h5>
         <p className="blog__card--text">
@@ -33,7 +33,7 @@ const Blog = () => {
           quod.
         </p>
       </div>
-      <div className="blog__card">
+      <div className="blog__card four">
         <img src={blog4} alt="" className="blog__card--img" />
         <h5 className="heading-5">berry bread</h5>
         <p className="blog__card--text">
