@@ -4,7 +4,7 @@ import Glaty from "./Glaty";
 import IceCream from "./IceCream";
 import JoinUs from "./JoinUs";
 import Blog from "./Blog";
-import Testemonials from "./Testemonials";
+import Testimonials from "./Testimonials";
 
 const HomeContent = () => {
   return (
@@ -13,7 +13,7 @@ const HomeContent = () => {
       <Glaty />
       <IceCream />
       <Coffee />
-      <Testemonials />
+      <Testimonials />
       <JoinUs />
       <Blog />
     </main>
