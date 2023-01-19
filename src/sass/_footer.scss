@@ -1,6 +1,6 @@
 .footer {
   grid-column: 1 / -1;
-  background-color: $color-black-8;
+  // background-color: $color-black-8;
   padding-left: 10vw;
   max-height: 26.5rem;
   
@@ -27,7 +27,7 @@
   
   font-size: 1.4rem;
   font-weight: 500;
-  color:  #FFFFFFCC;
+  // color:  #FFFFFFCC;
   margin-bottom: 2rem;
 }
 
@@ -40,7 +40,7 @@
   
   &-link{
     text-decoration: none;
-    color: #FFFFFFCC;
+    // color: #FFFFFFCC;
     font-size: 1.4rem;
     font-weight: 600;
     
@@ -50,14 +50,14 @@
 &__line{
   grid-column: 1 / center-end;
   height: 1px;
-  background-color:#FFFFFF80;
+  // background-color:#FFFFFF80;
   margin-bottom: 2rem;
 }
 
 &__copyright{
   grid-column: 1 / span 1;
   
-  color: #FFFFFF80;
+  // color: #FFFFFF80;
 }
 
 &__social-icons{
@@ -78,6 +78,6 @@
 
 
 .icon{
-  color: #fff;
+  // color: #fff;
   width: 2.4rem;
 }

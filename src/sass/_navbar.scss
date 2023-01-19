@@ -1,49 +1,45 @@
-.nav{
+.nav {
   grid-column: 1 / -1;
-  
+
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  padding: 2rem 2rem;
-    
-    &__logo{
-      width: 8rem;
-      
-    }
-  
-  
-  &__items{
+  padding: 0 2rem;
+
+  &__logo {
+    width: 8rem;
+  }
+
+  &__items {
     display: flex;
     justify-content: space-between;
     gap: 2.5rem;
     list-style: none;
   }
-  
-  &__link{
+
+  &__link {
     text-decoration: none;
     text-transform: uppercase;
     color: $color-primary-dark;
     font-size: 1.8rem;
     font-weight: 500;
   }
-  
-  &__logo{
+
+  &__logo {
     justify-self: center;
     width: 14rem;
     height: auto;
   }
-  
-  &__order-box{
+
+  &__order-box {
     display: flex;
     align-items: center;
     gap: 3rem;
-    
-    .nav__cart{
+
+    .nav__cart {
       width: 2.4rem;
       height: 2.4rem;
       color: #333;
     }
-    
-    
   }
 }

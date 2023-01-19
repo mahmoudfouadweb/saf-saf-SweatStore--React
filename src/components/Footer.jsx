@@ -1,4 +1,6 @@
-import logo from "../assets/icons/logo-1.svg";
+import logo from '../assets/logo-1.png'
+
+
 import { ImLinkedin } from "react-icons/im";
 import { FaTelegram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
