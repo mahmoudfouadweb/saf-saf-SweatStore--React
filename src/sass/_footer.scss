@@ -1,83 +1,79 @@
 .footer {
   grid-column: 1 / -1;
-  // max-height: 26.5rem
-  padding-top: 2.5rem;
+  padding: 2.5rem;
   background-color: #fff;
-  
+
   display: grid;
-  grid-template-columns: minmax(30rem, 1fr) repeat(6,1fr) [center-end] 1fr;
+  grid-template-columns: minmax(30rem, 1fr) repeat(6, 1fr) [center-end] 1fr;
   grid-template-rows: min-content max-content min-content min-content;
-  
-&__logo-box{
-  grid-column: 1 / -1;
-  margin: 2rem 0;
-  
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  
-  h2{
-    font-size: 2.4rem;
-    font-weight: 600;
-  }
-}
 
-&__text{
-  grid-column: 1 / span 1;
-  
-  font-size: 1.4rem;
-  font-weight: 500;
-  // color:  #FFFFFFCC;
-  margin-bottom: 2rem;
-}
+  &__logo-box {
+    grid-column: 1 / -1;
+    margin: 2rem 0;
 
-&__nav{
-  grid-column: 3 / -2;
-  
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  
-  &-link{
-    text-decoration: none;
-    color: $color-primary-dark;
-    font-size: 1.4rem;
-    font-weight: 600;
-  }
-}
-
-&__line{
-  grid-column: 1 / center-end;
-  height: 1px;
-  // background-color:#FFFFFF80;
-  margin-bottom: 2rem;
-}
-
-&__copyright{
-  grid-column: 1 / span 1;
-  
-  // color: #FFFFFF80;
-}
-
-&__social-icons{
-  grid-column: 6 / -2;
-  list-style: none;
-  cursor: pointer;
-  
-  display: flex;
-  justify-content: space-around;
-  
-  li svg{
-    width: 2.4rem;
-    height: 2.4rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
     
+    .logo{
+      max-width: 35rem;
+      height: auto;
+    }
+
+    h2 {
+      font-size: 2.4rem;
+      font-weight: 600;
+    }
   }
 
-}
+  &__text {
+    grid-column: 1 / span 1;
+
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+
+  &__nav {
+    grid-column: 3 / -2;
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+    &-link {
+      text-decoration: none;
+      color: $color-primary-dark;
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+  }
+
+  &__line {
+    grid-column: 1 / center-end;
+    height: 1px;
+    margin-bottom: 2rem;
+  }
+
+  &__copyright {
+    grid-column: 1 / span 1;
+  }
+
+  &__social-icons {
+    grid-column: 6 / -2;
+    list-style: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-around;
+
+    li svg {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+  }
 }
 
-
-.icon{
-  // color: #fff;
+.icon {
   width: 2.4rem;
 }

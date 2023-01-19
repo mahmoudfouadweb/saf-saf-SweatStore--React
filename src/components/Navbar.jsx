@@ -13,6 +13,7 @@ const Navbar = () => {
         <li className="nav__item"><a href="#" className="nav__link">shop</a></li>
         <li className="nav__item"><a href="#" className="nav__link">gallery</a></li>
         <li className="nav__item"><a href="#" className="nav__link">Menu</a></li>
+        <li className="nav__item"><a href="#" className="nav__link">Contact us</a></li>
         <li className="nav__item"><a href="#" className="nav__link">About us</a></li>
       </ul>
       

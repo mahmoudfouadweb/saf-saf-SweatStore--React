@@ -5,6 +5,7 @@ import IceCream from "./IceCream";
 import JoinUs from "./JoinUs";
 import Blog from "./Blog";
 import Testimonials from "./Testimonials";
+import ContactUs from "./ContactUs";
 
 const HomeContent = () => {
   return (
@@ -16,6 +17,7 @@ const HomeContent = () => {
       <Testimonials />
       <JoinUs />
       <Blog />
+      <ContactUs />
     </main>
   );
 };
