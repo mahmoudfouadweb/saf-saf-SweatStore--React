@@ -1,4 +1,4 @@
-import blog1 from "../assets/small-img/blog1.jpg";
+import blog1 from "../assets/orgnized/blog.jpg";
 import blog2 from "../assets/small-img/blog2.jpg";
 import blog3 from "../assets/small-img/blog3.jpg";
 import blog4 from "../assets/small-img/blog4.jpg";
