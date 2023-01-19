@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Glaty from "./Glaty";
 import IceCream from "./IceCream";
 import JoinUs from "./JoinUs";
+import Blog from "./Blog";
 
 const HomeContent = () => {
   return (
@@ -13,6 +14,7 @@ const HomeContent = () => {
       <IceCream />
       <Coffee />
       <JoinUs />
+      <Blog />
       <Footer />
     </main>
   );
