@@ -23,16 +23,16 @@ const ContactUs = () => {
         </p>
       </section>
 
-      <section className="contact__section">
+      <section className="contact__section special">
         <img src={branch4} alt="" className="contact__section--img" />
 
-        <div className="contact__section--box">
+        <div className="contact__section--box ">
           <h4 className="heading-4">old is gold</h4>
           <h2 className="heading-2">New Saf Saf</h2>
           <p className="contact__section--text">, Shiben El Kowm, Egypt</p>
           <p className="contact__section--email">support@safsaf.com</p>
           <p className="contact__section--number">+20 1016525847</p>
-          <button className="cta">Contact us</button>
+          <button className="cta">Show on map</button>
         </div>
       </section>
 
@@ -45,7 +45,7 @@ const ContactUs = () => {
           <p className="contact__section--text r">, Shiben El Kowm, Egypt</p>
           <p className="contact__section--email r">support@safsaf.com</p>
           <p className="contact__section--number r">+20 1016525847</p>
-          <button className="cta r">Contact us</button>
+          <button className="cta r">Show on map</button>
         </div>
       </section>
       <section className="contact__section">
@@ -57,19 +57,19 @@ const ContactUs = () => {
           <p className="contact__section--text">, Shiben El Kowm, Egypt</p>
           <p className="contact__section--email">support@safsaf.com</p>
           <p className="contact__section--number">+20 1016525847</p>
-          <button className="cta">Contact us</button>
+          <button className="cta">Show on map</button>
         </div>
       </section>
 
       <MapL />
 
-      <section>
+      <section className="contact__join-us">
         <img src={logo} alt="" className="join-us__logo" />
 
         <p className="join-us__mail-content">
           Join 50,000+ client and don't miss an event or a discount!
         </p>
-        <form action="" className="join-us__form">
+        <form action="" className="contact__join-us__form">
           <input
             type="text"
             className="join-us__form--name"

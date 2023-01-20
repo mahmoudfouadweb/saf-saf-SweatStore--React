@@ -19,7 +19,7 @@ const MapL = () => {
       </Marker>
       <Marker position={[30.56670618492769, 31.007105533089813]}>
         <Popup>
-          فرع Italian gelato <br />
+           Italian gelato فرع<br />
           أنور السادات، شبين الكوم، المنوفية <br /> 0482233150 \ 01062224488
         </Popup>
       </Marker>
