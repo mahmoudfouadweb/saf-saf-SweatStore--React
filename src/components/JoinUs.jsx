@@ -1,5 +1,3 @@
-import { Ri24HoursLine } from "react-icons/ri";
-import { FaMotorcycle } from "react-icons/fa";
 import img1 from "../assets/small-img/1.png";
 import img2 from "../assets/small-img/2.png";
 import img3 from "../assets/small-img/3.png";
