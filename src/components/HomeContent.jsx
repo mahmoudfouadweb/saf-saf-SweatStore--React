@@ -6,6 +6,7 @@ import JoinUs from "./JoinUs";
 import Blog from "./Blog";
 import Testimonials from "./Testimonials";
 import ContactUs from "./ContactUs";
+import ControlledAccordions from "./ControlledAccordions";
 
 const HomeContent = () => {
   return (
@@ -15,6 +16,7 @@ const HomeContent = () => {
       <IceCream />
       <Coffee />
       <ContactUs />
+      <ControlledAccordions />
       <Testimonials />
       <JoinUs />
       <Blog />

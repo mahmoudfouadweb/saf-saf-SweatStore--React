@@ -16,11 +16,11 @@ const Home = () => {
   return (
     <div className="home">
       <Navbar />
-      {/* <HomeContent /> */}
-      <PageTitle title={isPage}/>
+      <HomeContent />
+      {/* <PageTitle title={isPage}/> */}
       {/* <ContactUs /> */}
       {/* <AboutUs /> */}
-      <GalleryPage />
+      {/* <GalleryPage /> */}
       <Footer />
     </div>
   );
