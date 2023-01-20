@@ -5,6 +5,7 @@ import ContactUs from "./ContactUs";
 import AboutUs from "./AboutUs";
 import PageTitle from "../components/PageTitle";
 import { useState } from "react";
+import GalleryPage from "./GalleryPage";
 
 const Home = () => {
   const [isPage, setIsPage] = useState('about us')
@@ -18,7 +19,8 @@ const Home = () => {
       {/* <HomeContent /> */}
       <PageTitle title={isPage}/>
       {/* <ContactUs /> */}
-      <AboutUs />
+      {/* <AboutUs /> */}
+      <GalleryPage />
       <Footer />
     </div>
   );

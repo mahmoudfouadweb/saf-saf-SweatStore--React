@@ -1,4 +1,4 @@
-import logo from '../assets/logo-1.png'
+import logo from "../assets/logo-1.png";
 
 import { ImLinkedin } from "react-icons/im";
 import { FaTelegram } from "react-icons/fa";
@@ -13,8 +13,7 @@ const Footer = () => {
         <img src={logo} alt="logo" className="logo" />
       </div>
       <p className="footer__text">
-        The only marketplace selling unreleased music, music videos, stems,
-        remixes, royalty rights and more as downloadable files packed into NFTs
+        اللي بنى الحلو في شبين كان في الأصل صف صف لأننا من سنة 1977
       </p>
 
       <ul className="footer__nav">
@@ -52,7 +51,8 @@ const Footer = () => {
       <div className="footer__line"></div>
 
       <div className="footer__copyright">
-        © 2023 Saf Saf. All Rights Reserved. <br/>Made with ❤ MAHMOUD FOUAD web developer.
+        © 2023 Saf Saf. All Rights Reserved. <br />
+        Made with ❤ MAHMOUD FOUAD web developer.
       </div>
       <ul className="footer__social-icons">
         <li>

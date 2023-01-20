@@ -1,4 +1,4 @@
-import logo from "../assets/small-img/logo-full-light.png";
+import about from "../assets/orgnized/about.jpg";
 import branch2 from "../assets/orgnized/safsaf2.jpg";
 import branch3 from "../assets/orgnized/safsaf3.jpg";
 import branch4 from "../assets/orgnized/safsaf4.jpg";
@@ -52,11 +52,11 @@ const AboutUs = () => {
       </section>
       
       <section className="z__section r">
-        <img src={branch2} alt="" className="z__section--img r" />
+        <img src={about} alt="" className="z__section--img r" />
 
         <div className="z__section--box r">
-          <h4 className="heading-4 r">old is gold</h4>
-          <h2 className="heading-2 r">1990. Italian Gelato</h2>
+          <h4 className="heading-4 r">in your service</h4>
+          <h2 className="heading-2 r">2023. Always with you</h2>
           <p className="z__section--text r">
             terr.por ut Lsbcee et alqu& erym ad min im quis nostrud ul•mco
             labor*' ut aliqu•p ex. in aJpa eSt

@@ -656,6 +656,7 @@
       }
     }
     .heading-2 {
+
       grid-column: center / end-right;
 
       &.r {
@@ -753,6 +754,15 @@
     }
     .heading-2 {
       grid-column: 2 / span 1;
+    }
+  }
+}
+
+.react-photo-gallery--gallery{
+  grid-column: 1 /-1;
+  div{
+    img{
+      cursor: pointer;
     }
   }
 }
