@@ -1,4 +1,9 @@
-import branch1 from "../assets/orgnized/safsaf.jpg";
+import logo from "../assets/small-img/logo-full-light.png";
+import branch2 from "../assets/orgnized/safsaf2.jpg";
+import branch3 from "../assets/orgnized/safsaf3.jpg";
+import branch4 from "../assets/orgnized/safsaf4.jpg";
+
+import MapL from "../components/MapL";
 
 const ContactUs = () => {
   return (
@@ -19,7 +24,7 @@ const ContactUs = () => {
       </section>
 
       <section className="contact__section">
-        <img src={branch1} alt="" className="contact__section--img" />
+        <img src={branch4} alt="" className="contact__section--img" />
 
         <div className="contact__section--box">
           <h4 className="heading-4">old is gold</h4>
@@ -29,6 +34,57 @@ const ContactUs = () => {
           <p className="contact__section--number">+20 1016525847</p>
           <button className="cta">Contact us</button>
         </div>
+      </section>
+
+      <section className="contact__section">
+        <img src={branch2} alt="" className="contact__section--img r" />
+
+        <div className="contact__section--box r">
+          <h4 className="heading-4 r">old is gold</h4>
+          <h2 className="heading-2 r">Italian Gelato</h2>
+          <p className="contact__section--text r">, Shiben El Kowm, Egypt</p>
+          <p className="contact__section--email r">support@safsaf.com</p>
+          <p className="contact__section--number r">+20 1016525847</p>
+          <button className="cta r">Contact us</button>
+        </div>
+      </section>
+      <section className="contact__section">
+        <img src={branch3} alt="" className="contact__section--img" />
+
+        <div className="contact__section--box">
+          <h4 className="heading-4">old is gold</h4>
+          <h2 className="heading-2">New Saf Saf</h2>
+          <p className="contact__section--text">, Shiben El Kowm, Egypt</p>
+          <p className="contact__section--email">support@safsaf.com</p>
+          <p className="contact__section--number">+20 1016525847</p>
+          <button className="cta">Contact us</button>
+        </div>
+      </section>
+
+      <MapL />
+
+      <section>
+        <img src={logo} alt="" className="join-us__logo" />
+
+        <p className="join-us__mail-content">
+          Join 50,000+ client and don't miss an event or a discount!
+        </p>
+        <form action="" className="join-us__form">
+          <input
+            type="text"
+            className="join-us__form--name"
+            placeholder="Your name here"
+          />
+          <input
+            type="text"
+            className="join-us__form--email"
+            placeholder="Your e-mail here"
+          />
+          <button className="join-us__form--cta">
+            send
+            <span></span>
+          </button>
+        </form>
       </section>
     </main>
   );

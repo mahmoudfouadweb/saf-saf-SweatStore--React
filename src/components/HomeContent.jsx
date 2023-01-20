@@ -14,10 +14,10 @@ const HomeContent = () => {
       <Glaty />
       <IceCream />
       <Coffee />
+      <ContactUs />
       <Testimonials />
       <JoinUs />
       <Blog />
-      <ContactUs />
     </main>
   );
 };
