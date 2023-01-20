@@ -595,7 +595,7 @@
 
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: 20vw repeat(6, minmax(20vw, min-content));
+  grid-template-rows:  repeat(auto, minmax(20vw, min-content));
 
   &__about {
     grid-column: 1 / -1;

@@ -2,15 +2,15 @@ import contactUs from '../assets/orgnized/contact-us.jpg'
 
 const ContactUs = () => {
   return (
-    <section className='contact__section'>
-      <img src={contactUs} alt="Contact Us" className="contact__section--img" />
+    <section className='z__section'>
+      <img src={contactUs} alt="Contact Us" className="z__section--img" />
       
-      <div className="contact__section--box">
+      <div className="z__section--box">
       <h4 className="heading-4">Saf Saf</h4>
       <h2 className="heading-2">New Saf Saf again</h2>
-      <p className="contact__section--location">Next to girls secondary school, Shiben El Kowm, Egypt</p>
-      <p className="contact__section--email">support@safsaf.com</p>
-      <p className="contact__section--number">+20 1016525847</p>
+      <p className="z__section--location">Next to girls secondary school, Shiben El Kowm, Egypt</p>
+      <p className="z__section--email">support@safsaf.com</p>
+      <p className="z__section--number">+20 1016525847</p>
       <button className="cta">More Branches</button>
       </div>
     </section>

@@ -17,7 +17,7 @@ const Home = () => {
       <Navbar />
       {/* <HomeContent /> */}
       <PageTitle title={isPage}/>
-      <ContactUs />
+      {/* <ContactUs /> */}
       <AboutUs />
       <Footer />
     </div>
