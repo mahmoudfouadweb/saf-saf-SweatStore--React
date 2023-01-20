@@ -355,13 +355,13 @@
     font-size: 10rem;
     color: rgba(153, 153, 153, 0.211);
   }
-  
-  .before{
+
+  .before {
     top: -70px;
     left: -25px;
   }
-  
-  .after{
+
+  .after {
     bottom: -80px;
     right: 10px;
   }
@@ -378,7 +378,6 @@
   column-gap: 3.5rem;
   justify-content: center;
   justify-items: center;
-
 
   .heading-4 {
     grid-column: 4 / span 4;
@@ -536,8 +535,8 @@
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   column-gap: 4rem;
-  
-    background-image: url('../assets/orgnized/coffee2.jpg');
+
+  background-image: url("../assets/orgnized/coffee2.jpg");
   background-size: cover;
   background-attachment: fixed;
 
@@ -589,48 +588,25 @@
   }
 }
 
-
 //////////////////////////////////
 /// About Us
-.contact{
+.z {
   grid-column: 1 / -1;
-  
+
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows:20vw  repeat(6, minmax(20vw , min-content));
-  
-  &__title{
-    grid-column: 1 / -1;
-    background-image: url('../assets/orgnized/Background.png');
-    background-size: cover;
-    
-    display: grid;
-    grid-template-columns: 10vw 1fr 10vw;
-    align-content: center;
-    
-    .heading-4{
-      grid-column: 2 / span 1;
-    }
-    .heading-2{
-      grid-column: 2 / span 1;
-    }
-  }
-  
-  &__about{
+  grid-template-rows: 20vw repeat(6, minmax(20vw, min-content));
+
+  &__about {
     grid-column: 1 / -1;
     padding: 8rem 0;
-    // background-image: url('../assets/orgnized/story.jpg');
-    // background-position: bottom;
-    // background-size: cover;
-    // background-attachment: fixed;
-    // color: #fff;
-    
+
     display: grid;
-    grid-template-columns:  1fr ;
+    grid-template-columns: 1fr;
     justify-items: center;
     align-content: center;
-    
-    &--text{
+
+    &--text {
       font-size: 2rem;
       font-weight: 500;
       text-align: center;
@@ -638,107 +614,102 @@
       margin-top: 1rem;
     }
   }
-  
-  &__section{
+
+  &__section {
     grid-column: 1 / -1;
-    
+
     display: grid;
-    grid-template-columns: [start] repeat(5, 1fr)  [center] repeat(5, 1fr) [end];
+    grid-template-columns: [start] repeat(5, 1fr) [center] repeat(5, 1fr) [end];
     justify-content: center;
     align-items: center;
-    
-    &--img{
+
+    &--img {
       grid-column: start / center;
       grid-row: 1 / -1;
       max-width: 100%;
       height: auto;
       justify-self: start;
-      
-      &.r{
-      grid-column: center / end ;
+
+      &.r {
+        grid-column: center / end;
       }
     }
-    
-    &--box{
+
+    &--box {
       grid-column: center / end;
-      
+
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 1.4rem;
-      
-      &.r{
-      grid-column: start / center ;
-        
+
+      &.r {
+        grid-column: start / center;
       }
     }
-    
-    .heading-4{
+
+    .heading-4 {
       grid-column: center / end-right;
-      
-      &.r{
-        grid-column: start / center ;
+
+      &.r {
+        grid-column: start / center;
       }
     }
-    .heading-2{
+    .heading-2 {
       grid-column: center / end-right;
-      
-      &.r{
-        grid-column: start / center ;
+
+      &.r {
+        grid-column: start / center;
       }
     }
-    
-    &--location{
+
+    &--location {
       font-size: 1.4rem;
     }
-    
-    &--email{
+
+    &--email {
       font-size: 1.4rem;
-      
     }
-    
-    &--number{
+
+    &--number {
       font-size: 1.4rem;
-      
     }
-    
-    .cta{
-      margin-top: 2.5rem;    
+
+    .cta {
+      margin-top: 2.5rem;
     }
   }
-  
 }
 
-.leaflet{
-  &-container{
-    grid-column:  1 / -1;
+.leaflet {
+  &-container {
+    grid-column: 1 / -1;
     min-height: 60vh;
   }
-  &-popup-content{
+  &-popup-content {
     font-size: 1.4rem;
     min-width: 20rem;
     text-align: center;
-    &-wrapper{
+    &-wrapper {
     }
-    
-    }
+  }
 }
 
-.contact__join-us{
+.contact__join-us {
   grid-column: 1 / -1;
   padding-top: 8rem;
   background-color: $color-grey-light-1;
-  
+
   display: grid;
-  grid-template-columns:  repeat(10,1fr) ;
+  grid-template-columns: repeat(10, 1fr);
   justify-content: center;
-  
+
   &__form {
     grid-column: 4 / span 4;
     display: flex;
     margin-bottom: 10rem;
     gap: 0.5rem;
-    
+
     input {
       border: none;
       outline: none;
@@ -749,20 +720,39 @@
       color: $color-primary-dark;
       padding: 0.5rem;
       background-color: $color-grey-light-1;
-      
+
       &::placeholder {
         color: $color-primary-dark;
         font-weight: 500;
       }
     }
-    
-    button{
+
+    button {
       background-color: $color-grey-light-1;
-      
     }
   }
 }
 
-.special{
+.special {
   background-color: rgba(238, 238, 238, 0.149);
+}
+
+.page {
+  &__title {
+    grid-column: 1 / -1;
+    background-image: url("../assets/orgnized/Background.png");
+    background-size: cover;
+    height: 20vw;
+
+    display: grid;
+    grid-template-columns: 10vw 1fr 10vw;
+    align-content: center;
+
+    .heading-4 {
+      grid-column: 2 / span 1;
+    }
+    .heading-2 {
+      grid-column: 2 / span 1;
+    }
+  }
 }
