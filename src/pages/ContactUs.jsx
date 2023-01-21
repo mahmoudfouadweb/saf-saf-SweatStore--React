@@ -4,10 +4,13 @@ import branch3 from "../assets/orgnized/safsaf3.jpg";
 import branch4 from "../assets/orgnized/safsaf4.jpg";
 
 import MapL from "../components/MapL";
+import PageTitle from "../components/PageTitle";
 
 const ContactUs = () => {
   return (
     <main className="z">
+        <PageTitle title={"page"} />
+      
       <section className="z__about">
         <h4 className="heading-4">elegant</h4>
         <h2 className="heading-2">Saf Saf</h2>

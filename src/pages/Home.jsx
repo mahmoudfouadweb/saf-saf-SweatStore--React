@@ -15,13 +15,13 @@ const Home = () => {
   }
   return (
     <div className="home">
-      <Navbar />
+      {/* <Navbar /> */}
       <HomeContent />
-      {/* <PageTitle title={isPage}/> */}
+
       {/* <ContactUs /> */}
       {/* <AboutUs /> */}
-      {/* <GalleryPage /> */}
-      <Footer />
+      <GalleryPage />
+      
     </div>
   );
 };

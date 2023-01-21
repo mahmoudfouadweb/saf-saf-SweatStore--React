@@ -2,10 +2,13 @@ import about from "../assets/orgnized/about.jpg";
 import branch2 from "../assets/orgnized/safsaf2.jpg";
 import branch3 from "../assets/orgnized/safsaf3.jpg";
 import branch4 from "../assets/orgnized/safsaf4.jpg";
+import PageTitle from "../components/PageTitle";
 
 const AboutUs = () => {
   return (
     <main className="z">
+        <PageTitle title={"page"} />
+      
       <section className="z__section special">
         <img src={branch4} alt="" className="z__section--img" />
 
