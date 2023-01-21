@@ -15,13 +15,7 @@ const Home = () => {
   }
   return (
     <div className="home">
-      {/* <Navbar /> */}
       <HomeContent />
-
-      {/* <ContactUs /> */}
-      {/* <AboutUs /> */}
-      <GalleryPage />
-      
     </div>
   );
 };

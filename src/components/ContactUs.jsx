@@ -4,7 +4,7 @@ import PageTitle from './PageTitle'
 const ContactUs = () => {
   return (
     <section className='z__section'>
-        <PageTitle title={"page"} />
+
       
       <img src={contactUs} alt="Contact Us" className="z__section--img" />
       

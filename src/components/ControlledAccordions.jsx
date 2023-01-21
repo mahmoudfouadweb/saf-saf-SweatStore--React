@@ -29,9 +29,7 @@ export default function ControlledAccordions() {
           <Typography sx={{ width: "33%", flexShrink: 0, fontSize: "1.6rem" }}>
             General settings
           </Typography>
-          <Typography sx={{ color: "text.secondary", fontSize: "1.4rem" }}>
-            I am an accordion
-          </Typography>
+          
         </AccordionSummary>
         <AccordionDetails>
           <Typography  sx={{ fontSize: '1.4rem'}}>
@@ -54,9 +52,7 @@ export default function ControlledAccordions() {
           <Typography sx={{ width: "33%", flexShrink: 0, fontSize: "1.6rem" }}>
             Users
           </Typography>
-          <Typography sx={{ color: "text.secondary", fontSize: "1.4rem" }}>
-            You are currently not an owner
-          </Typography>
+          
         </AccordionSummary>
         <AccordionDetails>
           <Typography  sx={{ fontSize: '1.4rem'}}>
@@ -81,9 +77,7 @@ export default function ControlledAccordions() {
           <Typography sx={{ width: "33%", flexShrink: 0, fontSize: "1.6rem" }}>
             Advanced settings
           </Typography>
-          <Typography sx={{ color: "text.secondary", fontSize: "1.4rem" }}>
-            Filtering has been entirely disabled for whole web server
-          </Typography>
+          
         </AccordionSummary>
         <AccordionDetails>
           <Typography  sx={{ fontSize: '1.4rem'}}>
@@ -106,9 +100,7 @@ export default function ControlledAccordions() {
           <Typography sx={{ width: "33%", flexShrink: 0, fontSize: "1.6rem" }}>
             Advanced settings
           </Typography>
-          <Typography sx={{ color: "text.secondary", fontSize: "1.4rem" }}>
-            Filtering has been entirely disabled for whole web server
-          </Typography>
+          
         </AccordionSummary>
         <AccordionDetails>
           <Typography  sx={{ fontSize: '1.4rem'}}>
