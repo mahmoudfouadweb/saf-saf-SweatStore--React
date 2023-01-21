@@ -19,81 +19,113 @@ export const photos = [
   {
     src: img_1 ,
     width: 4,
-    height: 3
+    height: 3,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_2 ,
     width: 1,
-    height: 1
+    height: 1,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_3 ,
     width: 3,
-    height: 4
+    height: 4,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_4 ,
     width: 3,
-    height: 4
+    height: 4,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_5 ,
     width: 3,
-    height: 4
+    height: 4,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_6 ,
     width: 4,
-    height: 3
+    height: 3,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_7 ,
     width: 3,
-    height: 4
+    height: 4,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_8 ,
     width: 4,
-    height: 3
+    height: 3,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_9 ,
     width: 4,
-    height: 3
+    height: 3,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_10,
     width: 3,
-    height: 4
+    height: 4,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_11,
     width: 4,
-    height: 3
+    height: 3,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_12,
     width: 4,
-    height: 3
+    height: 3,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_13,
     width: 4,
-    height: 3
+    height: 3,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_14,
     width: 4,
-    height: 3
+    height: 3,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_15,
     width: 4,
-    height: 3
+    height: 3,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   },
   {
     src: img_16,
     width: 4,
-    height: 3
+    height: 3,
+    alt: 'gallery photo',
+    key: Math.floor(Math.random().toString())
   }
 ];

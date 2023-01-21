@@ -16,6 +16,7 @@ const style = {
   pt: 2,
   px: 4,
   pb: 3,
+
 };
 
 function ChildModal() {
