@@ -1,17 +1,19 @@
-import img_1 from '../assets/gallery/img(1).jpg'
-import img_2 from '../assets/gallery/img(1).jpg'
-import img_3 from '../assets/gallery/img(1).jpg'
-import img_4 from '../assets/gallery/img(1).jpg'
-import img_5 from '../assets/gallery/img(1).jpg'
-import img_6 from '../assets/gallery/img(1).jpg'
-import img_7 from '../assets/gallery/img(1).jpg'
-import img_8 from '../assets/gallery/img(8).jpg'
-import img_9 from '../assets/gallery/img(9).jpg'
-import img_10 from '../assets/gallery/img(10).jpg'
-import img_11 from '../assets/gallery/img(11).jpg'
-import img_12 from '../assets/gallery/img(12).jpg'
-import img_13 from '../assets/gallery/img(13).jpg'
-import img_14 from '../assets/gallery/img(14).jpg'
+import img_1 from '../assets/gallery/img (1).jpg'
+import img_2 from '../assets/gallery/img (2).jpg'
+import img_3 from '../assets/gallery/img (7).jpg'
+import img_4 from '../assets/gallery/img (18).jpg'
+import img_5 from '../assets/gallery/img (5).jpg'
+import img_6 from '../assets/gallery/img (6).jpg'
+import img_7 from '../assets/gallery/img (7).jpg'
+import img_8 from '../assets/gallery/img (8).jpg'
+import img_9 from '../assets/gallery/img (9).jpg'
+import img_10 from '../assets/gallery/img (10).jpg'
+import img_11 from '../assets/gallery/img (11).jpg'
+import img_12 from '../assets/gallery/img (12).jpg'
+import img_13 from '../assets/gallery/img (13).jpg'
+import img_14 from '../assets/gallery/img (14).jpg'
+import img_15 from '../assets/gallery/img (17).jpg'
+import img_16 from '../assets/gallery/img (16).jpg'
 
 export const photos = [
   {
@@ -85,12 +87,12 @@ export const photos = [
     height: 3
   },
   {
-    src: "https://source.unsplash.com/A-fubu9QJxE/800x533",
+    src: img_15,
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/5P91SF0zNsI/740x494",
+    src: img_16,
     width: 4,
     height: 3
   }

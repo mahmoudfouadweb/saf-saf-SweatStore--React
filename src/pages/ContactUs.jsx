@@ -9,7 +9,7 @@ import PageTitle from "../components/PageTitle";
 const ContactUs = () => {
   return (
     <main className="z">
-        <PageTitle title={"page"} />
+        <PageTitle title={"Contact Us"} />
       
       <section className="z__about">
         <h4 className="heading-4">elegant</h4>

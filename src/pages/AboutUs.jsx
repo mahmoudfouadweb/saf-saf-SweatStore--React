@@ -7,7 +7,7 @@ import PageTitle from "../components/PageTitle";
 const AboutUs = () => {
   return (
     <main className="z">
-        <PageTitle title={"page"} />
+        <PageTitle title={"About Us"} />
       
       <section className="z__section special">
         <img src={branch4} alt="" className="z__section--img" />

@@ -5,7 +5,7 @@ import { photos } from "../itelities/photo";
 const GalleryPage = () => {
   return (
     <>
-      <PageTitle title={"page"} />
+      <PageTitle title={"Gallery"} />
       <Gallery photos={photos} direction={"column"} />;
     </>
   );

@@ -8,11 +8,6 @@ import { useState } from "react";
 import GalleryPage from "./GalleryPage";
 
 const Home = () => {
-  const [isPage, setIsPage] = useState('about us')
-  
-  const pageTitleHandler = () => {
-    setIsPage('pageTitle')
-  }
   return (
     <div className="home">
       <HomeContent />
