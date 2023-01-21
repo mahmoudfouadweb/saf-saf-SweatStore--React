@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
@@ -10,12 +9,9 @@ import GalleryPage from "./pages/GalleryPage";
 import "./App.scss";
 
 function App() {
-  const [param, setParam] = useState();
-
-  console.log(param);
   return (
     <div className="app">
-      <Navbar setParam={setParam} />
+      <Navbar  />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="about" element={<AboutUs />} />
