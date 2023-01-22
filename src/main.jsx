@@ -6,8 +6,6 @@ import './sass/main.scss'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-  <React.StrictMode>
     <App />
-  </React.StrictMode>,
   </BrowserRouter>
 )

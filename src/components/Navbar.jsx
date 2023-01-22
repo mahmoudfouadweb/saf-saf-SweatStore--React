@@ -16,11 +16,7 @@ const Navbar = ({ setParam }) => {
             Home
           </NavLink>
         </li>
-        <li className="nav__item">
-          <NavLink to={"feature"} className="nav__link">
-            Feature
-          </NavLink>
-        </li>
+        
         <li className="nav__item">
           <NavLink to={"shop"} className="nav__link">
             shop

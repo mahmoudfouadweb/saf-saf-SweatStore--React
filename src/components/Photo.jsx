@@ -1,23 +1,25 @@
+import { useState } from "react";
+
 const imgWithClick = { cursor: "pointer" };
 
-const Photo = ({ index, onClick, photo, margin, direction, top, left }) => {
+const Photo = ({  photo, margin, direction, top, left }) => {
   const imgStyle = { margin: margin };
   if (direction === "column") {
     imgStyle.position = "absolute";
     imgStyle.left = left;
     imgStyle.top = top;
   }
+  
+  const [currentImage, setCurrentImage] = useState(0);
+  const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-  const handleClick = event => {
-    onClick(event, { photo, index });
-  };
-
+  console.log(isClicked);
   return (
     <img
-      style={onClick ? { ...imgStyle, ...imgWithClick } : imgStyle}
+      style={  { ...imgStyle, ...imgWithClick } }
       {...photo}
-      onClick={onClick ? handleClick : null}
-      alt="img"
+      onClick={() => setIsClicked(photo.src)}
+      alt="imgs"
     />
   );
 };
