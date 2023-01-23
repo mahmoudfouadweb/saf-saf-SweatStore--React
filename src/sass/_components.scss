@@ -1029,5 +1029,16 @@
   grid-column: 1 / -1;
   
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: [start] repeat(10 , minmax(min-content, 1fr)) [end];
+  justify-items: center;
+  
+  .heading-4{
+    grid-column: start / -2;
+  }
+  .heading-2{
+    grid-column: start / -2;
+  }
+  &__text{
+    grid-column: start / -2;
+  }
 }
