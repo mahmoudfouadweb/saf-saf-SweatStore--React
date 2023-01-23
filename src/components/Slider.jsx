@@ -14,12 +14,15 @@ export default function RangeSlider() {
   };
 
   return (
-    <Box sx={{ width: 300 }}>
-      <Slider
+    <Box sx={{ width: 300 }} >
+      <Slider 
         getAriaLabel={() => 'Price range'}
         value={value}
+        min={10}
+        max={500}
+        step={10}
         onChange={handleChange}
-        valueLabelDisplay="on"
+        valueLabelDisplay="auto"
         getAriaValueText={valuetext}
       />
     </Box>
