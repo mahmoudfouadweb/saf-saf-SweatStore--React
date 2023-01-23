@@ -8,8 +8,8 @@ const MenuPage = () => {
   return (
     <section className="menu">
       <PageTitle title={"EL Menu"} subTitle={"your taste"} />
-      <h2 className="heading-4 center ">at your hand</h2>
-      <h4 className="heading-2 center ">variety sweet</h4>
+      <h2 className="heading-4 center column-start">at your hand</h2>
+      <h4 className="heading-2 center column-start">variety sweet</h4>
       <p className="menu__text center">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam
         animi magni amet esse ex rem possimus quisquam soluta numquam quaerat

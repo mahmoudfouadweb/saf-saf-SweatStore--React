@@ -1043,12 +1043,13 @@
   }
 
   .column-start {
-    grid-column: 1 / -1;
+    grid-column: 1 / -1 !important;
   }
 
   &__text {
-    grid-column: 1 / span 3;
+    grid-column: 4 /-4;
     font-size: 1.2rem;
+    line-height: 1.6;
     margin: 3rem 0;
     margin-bottom: 5rem;
   }
@@ -1064,15 +1065,16 @@
   
   &__card {
     display: grid;
-    grid-template-columns: minmax(2vw, 4.5vw) minmax(min-content, 12vw);
-    
+    grid-template-columns: minmax(2vw, 4.5vw) minmax(max-content, 12vw);
     align-items: center;
     justify-items: start;
     
     &--box {
       display: grid;
-      grid-template-columns: repeat(3, minmax(min-content, 1fr));
+      grid-template-columns: repeat(3, minmax(15rem ,1fr));
       row-gap: 1.5rem;
+      column-gap: 2rem;
+      margin-top: 4rem;
     }
 
     &--img {
@@ -1096,7 +1098,6 @@
     &--text {
       grid-column: 2 / span 1;
       grid-row: 2 / span 1;
-
       align-self: flex-start;
     }
   }
