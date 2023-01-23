@@ -8,6 +8,7 @@ import GalleryPage from "./pages/GalleryPage";
 
 import "./App.scss";
 import Shop from "./pages/Shop";
+import MenuPage from "./pages/MenuPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="contact" element={<ContactUs />} />
         <Route path="gallery" element={<GalleryPage />} />
         <Route path="shop" element={<Shop />} />
+        <Route path="menu" element={<MenuPage />} />
       </Routes>
       <Footer />
       </div>

@@ -18,11 +18,15 @@ import cardImg12 from "../assets/gallery/img (15).jpg";
 import cardImg13 from "../assets/gallery/img (16).jpg";
 import cardImg14 from "../assets/gallery/img (17).jpg";
 import cardImg15 from "../assets/gallery/img (18).jpg";
+import cardImg16 from "../assets/gallery/img (19).jpg";
+import cardImg17 from "../assets/gallery/img (20).jpg";
+import cardImg18 from "../assets/gallery/img (22).jpg";
 
 import { Link } from "react-router-dom";
 import { AiFillFacebook } from "react-icons/ai";
 import { FaInstagramSquare } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
+import Blog from "../components/Blog";
 
 const Shop = () => {
   return (
@@ -201,6 +205,27 @@ const Shop = () => {
           <h6 className="heading-6">choco glaze</h6>
           <p className="shop__card--text">now with chocolate chips!</p>
         </div>
+        <div className="shop__card">
+          <div className="shop__card--img-box">
+            <img src={cardImg16} alt="" className="shop__card--img" />
+          </div>
+          <h6 className="heading-6">choco glaze</h6>
+          <p className="shop__card--text">now with chocolate chips!</p>
+        </div>
+        <div className="shop__card">
+          <div className="shop__card--img-box">
+            <img src={cardImg17} alt="" className="shop__card--img" />
+          </div>
+          <h6 className="heading-6">choco glaze</h6>
+          <p className="shop__card--text">now with chocolate chips!</p>
+        </div>
+        <div className="shop__card">
+          <div className="shop__card--img-box">
+            <img src={cardImg18} alt="" className="shop__card--img" />
+          </div>
+          <h6 className="heading-6">choco glaze</h6>
+          <p className="shop__card--text">now with chocolate chips!</p>
+        </div>
       </div>
 
       <section className="shop__category">
@@ -270,8 +295,10 @@ const Shop = () => {
               <h6 className="heading-6">choco glaze</h6>
               <p className="shop__card--text">now with chocolate chips!</p>
             </div>
+
         </div>
       </section>
+      <Blog />
     </section>
   );
 };

@@ -9,7 +9,7 @@
   // max-width: 144rem;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 10vw repeat(8, 1fr) 10vw;
+  grid-template-columns: 10vw repeat(8, 1fr) minmax(20vw, 25vw);
   // grid-template-columns: [left-start] 50vw [left-end right-start] 50vw [right-end];
 }
 
@@ -17,7 +17,7 @@
   grid-column: 1 / -1;
   
   display: grid;
-  grid-template-columns: 10vw repeat(8, 1fr) 10vw;
+  grid-template-columns: 10vw repeat(8, 1fr);
   // grid-template-rows: 10rem;
   background-color: #faf7f0;
 }
@@ -26,7 +26,7 @@
   grid-column: 1 / -1;
   
   display: grid;
-  grid-template-columns: 10vw repeat(8, 1fr) 10vw;
+  grid-template-columns: 10vw repeat(8, 1fr) minmax(20vw, 25vw);
 }
 
 .feature{

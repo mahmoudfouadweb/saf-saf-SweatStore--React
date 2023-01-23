@@ -430,15 +430,7 @@
     color: $color-grey-light-2;
   }
 
-  &__box {
-    grid-column: 1 / -1;
-    display: flex;
-    margin: 10rem 0;
 
-    img {
-      width: calc(100% / 9);
-    }
-  }
 
   &__logo {
     grid-column: 1 / -1;
@@ -520,6 +512,16 @@
         border-bottom: 3px solid $color-primary-dark;
       }
     }
+  }
+}
+
+.join-us__box {
+  grid-column: 1 / -1;
+  display: flex;
+  margin: 10rem 0;
+
+  img {
+    width: calc(100% / 9);
   }
 }
 
@@ -842,7 +844,7 @@
     .css-187mznn-MuiSlider-root {
       grid-column: 1 / -1;
       max-width: 100%;
-      width: 70%;
+      width: 15vw;
       padding: 0;
       justify-self: center;
     }
@@ -974,8 +976,11 @@
   }
 
   &__category {
-    grid-column: 1 / -2;
-    margin-top: 15rem;
+    grid-column: 1 / -1;
+    background-color: $color-primary-light;
+    margin: 15rem 0;
+    margin-bottom: 0;
+    padding: 10rem 0;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -983,14 +988,14 @@
     row-gap: 1rem;
 
     .heading-4 {
-      grid-column: 2 / -1;
+      grid-column: 2 / -2;
     }
 
     .heading-2 {
-      grid-column: 2 / -1;
+      grid-column: 2 / -2;
     }
     .shop__categoty--text {
-      grid-column: 2 / -1;
+      grid-column: 2 / -2;
       font-size: 1.3rem;
       max-width: 70%;
       line-height: 1.7;
@@ -1002,12 +1007,13 @@
       justify-self: start;
 
       display: grid;
-      grid-template-columns: repeat(4, 15vw);
+      grid-template-columns: repeat(4, minmax(12vw, 1fr));
       justify-content: center;
       justify-items: center;
 
-      row-gap: 4rem;
-      margin-top: 6rem;
+      row-gap: 3vw;
+      column-gap: 2vw;
+      // margin-top: 6rem;
 
       .shop__card--img {
         background-color: #fff;
@@ -1015,4 +1021,13 @@
       }
     }
   }
+}
+
+///////////////////////////////////////////
+/// Menu
+.menu{
+  grid-column: 1 / -1;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
