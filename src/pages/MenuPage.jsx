@@ -1,6 +1,8 @@
 import ImageBar from "../components/ImageBar";
 import PageTitle from "../components/PageTitle";
 
+import background from '../assets/gallery/brown/shop-background.png'
+
 import Blog from "../components/Blog";
 import MenuSection from "../components/MenuSection";
 
@@ -18,6 +20,7 @@ const MenuPage = () => {
       <ImageBar />
       <MenuSection />
   
+      <img src={background} alt="menu photo" className="menu__background" />
 
       <Blog />
     </section>
