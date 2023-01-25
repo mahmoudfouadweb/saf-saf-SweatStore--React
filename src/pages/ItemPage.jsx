@@ -15,13 +15,17 @@ const ItemPage = () => {
       <PageTitle />
 
       <section className="item__heading">
+        <div className="item__left">
+          
         <img src={item3} alt="" className="item-img--1" />
         {/* <img src={item} alt=""  className='item-img item-img--2'/> */}
         <img src={item3} alt="" className="item-img item-img--2" />
         <img src={item1} alt="" className="item-img item-img--3" />
         <img src={item2} alt="" className="item-img item-img--4" />
         <img src={item} alt="" className="item-img item-img--5" />
+        </div>
 
+        <div className="item__right">
         <h4 className="heading-3">Coffee</h4>
         <p className="item__price">14.99$</p>
 
@@ -30,16 +34,21 @@ const ItemPage = () => {
           tempore nobis quod ipsum atque debitis quia reprehenderit vitae
           similique a, tenetur labore modi dolor corporis hic deserunt fugit!
           Porro?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa sequi,
+          tempore nobis quod ipsum atque debitis quia reprehenderit vitae
+          similique a, tenetur labore modi dolor corporis hic deserunt fugit!
+          Porro?
         </p>
 
         <p className="item__status">available</p>
         <div className="item__like">
-          icon here <span>add to wishlist</span>
+          <p>icon</p>  <p>add to wishlist</p>
         </div>
 
         <p className="item__category">hot drink</p>
         <p className="item__tags">brown, hot</p>
         <p className="item__social">Follow us: icons here</p>
+        </div>
       </section>
 
       <section className="item__description">
