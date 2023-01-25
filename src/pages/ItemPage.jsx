@@ -10,9 +10,10 @@ import shop1 from "../assets/gallery/brown/img (3).jpg";
 import PageTitle from "../components/PageTitle";
 
 const ItemPage = () => {
+  const itemTitle = 'coffee'
   return (
     <section className="item">
-      <PageTitle />
+      <PageTitle title={itemTitle} subTitle={'hot drink'} />
 
       <section className="item__heading">
         <div className="item__left">

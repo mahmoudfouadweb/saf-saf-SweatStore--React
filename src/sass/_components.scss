@@ -1235,7 +1235,12 @@
   }
 
   &__description {
-    grid-column: 2 / -1;
+    grid-column: 2 / -2;
+    margin-top: 6rem;
+    
+    &--text{
+      font-size: 1.4rem;
+    }
   }
 
   .frist {
