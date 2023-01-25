@@ -19,7 +19,7 @@
     
     .line{
       height: 1px;
-      background-color: $colorLine-Stroke-default;
+      background-color: $color-grey-light-1;
       width: 80%;
     }
   }
@@ -41,7 +41,7 @@
     }
     
     &.active{
-      color: $color-bg-primary;
+      color: $color-primary;
     }
   }
 }

@@ -1,92 +1,92 @@
-
-$color-primary-light: #faf7f0;
-$color-primary-dark: #133050;
-$color-primary-text: red;
-
 // COLOR VARIABLES
-
+$color-primary: #c69963;
+$color-bg-primary: #c69963;
+$color-primary-dark: #B28451;
 
 $color-secondary: #101d2c;
 
-$color-grey-light-1: #faf7f0;
+$color-grey-light-1: #f9f7f6;
+$color-grey-light: #f9f7f6;
+$color-primary-light: #f9f7f6;
 $color-grey-light-2: #aaa;
-$color-grey-light: #faf7f0;
 
-$color-grey-dark-1: #54483a;
-$color-grey-dark-2: #6d5d4b;
+$color-grey-dark-1: #54483A;
+$color-grey-dark-2: #6D5D4B;
 
 // FONT VARIABLES
-$font-primary:"Inter", sans-serif;
+$font-display: 'Nunito', sans-serif;
+$font-primary: 'Nunito', sans-serif;
+// $font-display: 'Josefin Sans', sans-serif;
 
 // RESPONSIVE BREAKPOINTS
-$bp-largest: 75em; // 1200px
-$bp-large: 62.5em; // 1000px
-$bp-medium: 50em; // 800px;
-$bp-small: 37.5em; // 600px;
+$bp-largest: 75em;   // 1200px
+$bp-large: 62.5em;   // 1000px
+$bp-medium: 50em;    // 800px;
+$bp-small: 37.5em;    // 600px;
 
-// Primary
-$color-bg-primary-dark-6:  #33220F;
-$color-bg-primary-dark-5:  #855A2A;
-$color-bg-primary-dark: #CC8534;
-$color-bg-primary: #FF8200;
-$color-bg-primary-dark-2:  #FFE4C3;
-$color-bg-primary-dark-1:  #FFF4E7;
+// // Primary
+// $color-bg-primary-dark-6:  #33220F;
+// $color-bg-primary-dark-5:  #855A2A;
+// $color-bg-primary-dark: #CC8534;
+// $color-bg-primary: #FF8200;
+// $color-bg-primary-dark-2:  #FFE4C3;
+// $color-bg-primary-dark-1:  #FFF4E7;
 
-// Secondary
-$color-bg-secondary-dark-1:  #181A20;
-$color-bg-secondary-light-1:  #F8F8F8;
-$color-bg-secondary-disabled:  #DBDBDB;
+// // Secondary
+// $color-bg-secondary-dark-1:  #181A20;
+// $color-bg-secondary-light-1:  #F8F8F8;
+// $color-bg-secondary-disabled:  #DBDBDB;
 
-// Black
+// // Black
 
-$color-black-8:   #000000cc;
-$color-black-6: #00000099;
-$color-black-4: #00000066;
-$color-black-2:#00000033;
-$color-black-08: #00000014;
-$color-black-04:  #0000000a;
-// White
+// $color-black-8:   #000000cc;
+// $color-black-6: #00000099;
+// $color-black-4: #00000066;
+// $color-black-2:#00000033;
+// $color-black-08: #00000014;
+// $color-black-04:  #0000000a;
+// // White
 
-$color-white-8:  #ffffffcc;
-$color-white-6:  #ffffff99;
-$color-white-4:  #ffffff66;
-$color-white-2:  #ffffff33;
-$color-white-08:  #ffffff14;
-$color-white-04:  #ffffff0a;
+// $color-white-8:  #ffffffcc;
+// $color-white-6:  #ffffff99;
+// $color-white-4:  #ffffff66;
+// $color-white-2:  #ffffff33;
+// $color-white-08:  #ffffff14;
+// $color-white-04:  #ffffff0a;
 
-// Text
+// // Text
 
-$color-Heading : #181A20;
-$color-Subtitle: #181A20;
-$color-Body : #181A20BD;
-$color-Placeholder : #181A208A;
-$color-text : #D5D4D8;
+// $color-Heading : #181A20;
+// $color-Subtitle: #181A20;
+// $color-Body : #181A20BD;
+// $color-Placeholder : #181A208A;
+// $color-text : #D5D4D8;
 
-$color-Disable : #181A204D;
+// $color-Disable : #181A204D;
 
-// color-STATES:
-$color-Success-light: #E3F5E9;
-$color-Success-base: #31BF60;
-$color-Success-dark :#103D1F;
+// // color-STATES:
+// $color-Success-light: #E3F5E9;
+// $color-Success-base: #31BF60;
+// $color-Success-dark :#103D1F;
 
-$color-Error-light :#FFD4D4;
-$color-Error-base: #F81E1E;
-$color-Error-dark :#570A0A;
+// $color-Error-light :#FFD4D4;
+// $color-Error-base: #F81E1E;
+// $color-Error-dark :#570A0A;
 
-$color-Info-light : #46B39B4D;
-$color-Info-base : #46B39BB2;
-$color-Info-dark : #46B39B;
+// $color-Info-light : #46B39B4D;
+// $color-Info-base : #46B39BB2;
+// $color-Info-dark : #46B39B;
 
-$color-Warning-light: #FDF6E4;
-$color-Warning-base: #F6C74E;
-$color-Warning-dark : #3D3213;
+// $color-Warning-light: #FDF6E4;
+// $color-Warning-base: #F6C74E;
+// $color-Warning-dark : #3D3213;
 
 
 
-$color-icon-default-disable :#3E3D4B;
-$color-Overlay :rgba(39,39,39,0.1);
-$colorLine-Stroke-default: #454343;
-$color-Line-Stroke-focus:  #272727;
+// $color-icon-default-disable :#3E3D4B;
+// $color-Overlay :rgba(39,39,39,0.1);
+// $colorLine-Stroke-default: #454343;
+// $color-Line-Stroke-focus:  #272727;
 
 /*
   Lines
