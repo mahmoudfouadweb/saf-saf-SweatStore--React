@@ -15,7 +15,7 @@ const Navbar = ({ setParam }) => {
         
         <li className="nav__item">
           <NavLink to={"shop"} className="nav__link">
-            shop
+            shop.
           </NavLink>
         </li>
         <li className="nav__item">
