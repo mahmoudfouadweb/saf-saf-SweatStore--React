@@ -13,7 +13,7 @@ const HomeContent = () => {
   return (
     <main className="home-content">
       <Swiper />
-      <Feature />
+      {/* <Feature /> */}
       
       <Glaty />
       <IceCream />
