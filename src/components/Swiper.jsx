@@ -4,11 +4,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/swiper.min.css';
 
-import 'swiper/css';
-import 'swiper/css/a11y';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import 'swiper/css/scrollbar';
+import 'swiper/scss';
+import 'swiper/scss/a11y';
+import 'swiper/scss/pagination';
+import 'swiper/scss/navigation';
+import 'swiper/scss/scrollbar';
 
 
 
@@ -33,11 +33,11 @@ export default () => {
   };
   return (
     <Swiper
-      // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}
       slidesPerView={9}
       navigation
+      zoom={false}
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
