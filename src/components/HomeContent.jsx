@@ -7,11 +7,14 @@ import Blog from "./Blog";
 import Testimonials from "./Testimonials";
 import ContactUs from "./ContactUs";
 import ControlledAccordions from "./ControlledAccordions";
+import Swiper from "./Swiper";
 
 const HomeContent = () => {
   return (
     <main className="home-content">
+      <Swiper />
       <Feature />
+      
       <Glaty />
       <IceCream />
       <Coffee />
