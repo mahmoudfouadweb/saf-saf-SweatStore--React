@@ -20,6 +20,27 @@ import slider7 from "../assets/slider/7.jpg";
 import slider8 from "../assets/slider/8.jpg";
 import slider9 from "../assets/slider/9.jpg";
 
+const heroImg = [
+  { src: slider1, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider2, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider3, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider4, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider5, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider6, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider7, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider8, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider9, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider1, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider2, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider3, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider4, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider5, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider6, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider7, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider8, className: "slider__img", alt: "saf saf gallery" },
+  { src: slider9, className: "slider__img", alt: "saf saf gallery" },
+];
+
 export default () => {
   const settings = {
     dots: true,
@@ -30,9 +51,9 @@ export default () => {
   };
   return (
     <section className="hero">
-        <h2 className="hero__title">
-          sweet pistachio <br /> ice cream
-        </h2>
+      <h2 className="hero__title">
+        sweet pistachio <br /> ice cream
+      </h2>
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={100}
@@ -48,65 +69,20 @@ export default () => {
         allowSlideNext={true}
         allowSlidePrev={true}
         allowTouchMove={true}
-        autoHeight={false}
+        fadeEffect={{
+          effect: "fade",
+          fadeEffect: {
+            crossFade: true,
+          },
+        }}
+        // autoHeight={false}
         className="swip "
-        
       >
-        <SwiperSlide>
-          <img src={slider1} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider2} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider3} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider4} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider5} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider6} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider7} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider8} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider9} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider1} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider2} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider3} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider4} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider5} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider6} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider7} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider8} alt="" className="slider__img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slider9} alt="" className="slider__img" />
-        </SwiperSlide>
-        ...
+        {heroImg.map((item) => (
+          <SwiperSlide>
+            <img {...item} />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </section>
   );
