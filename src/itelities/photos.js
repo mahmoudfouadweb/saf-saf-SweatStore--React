@@ -15,6 +15,43 @@ import img_14 from '../assets/gallery/img (14).jpg'
 import img_15 from '../assets/gallery/img (17).jpg'
 import img_16 from '../assets/gallery/img (16).jpg'
 
+
+import slider1 from "../assets/slider/1.jpg";
+import slider2 from "../assets/slider/2.jpg";
+import slider3 from "../assets/slider/3.jpg";
+import slider4 from "../assets/slider/4.jpg";
+import slider5 from "../assets/slider/5.jpg";
+import slider6 from "../assets/slider/6.jpg";
+import slider7 from "../assets/slider/7.jpg";
+import slider8 from "../assets/slider/8.jpg";
+import slider9 from "../assets/slider/9.jpg";
+
+import bola from "../assets/sp-home1-new1.png";
+import bola2 from "../assets/sp-home1-new2.png";
+import bola3 from "../assets/sp-home1-new3.png";
+
+export const heroImg = [
+  { src: slider1, className: "slider__img", alt: "saf saf gallery", key: 1},
+  { src: slider2, className: "slider__img", alt: "saf saf gallery", key: 2},
+  { src: slider3, className: "slider__img", alt: "saf saf gallery", key: 3},
+  { src: slider4, className: "slider__img", alt: "saf saf gallery", key: 4},
+  { src: slider5, className: "slider__img", alt: "saf saf gallery", key: 5},
+  { src: slider6, className: "slider__img", alt: "saf saf gallery", key: 6},
+  { src: slider7, className: "slider__img", alt: "saf saf gallery", key: 7},
+  { src: slider8, className: "slider__img", alt: "saf saf gallery", key: 8},
+  { src: slider9, className: "slider__img", alt: "saf saf gallery", key: 9},
+  { src: slider1, className: "slider__img", alt: "saf saf gallery", key: 10},
+  { src: slider2, className: "slider__img", alt: "saf saf gallery", key: 11},
+  { src: slider3, className: "slider__img", alt: "saf saf gallery", key: 12},
+  { src: slider4, className: "slider__img", alt: "saf saf gallery", key: 13},
+  { src: slider5, className: "slider__img", alt: "saf saf gallery", key: 14},
+  { src: slider6, className: "slider__img", alt: "saf saf gallery", key: 15},
+  { src: slider7, className: "slider__img", alt: "saf saf gallery", key: 16},
+  { src: slider8, className: "slider__img", alt: "saf saf gallery", key: 17},
+  { src: slider9, className: "slider__img", alt: "saf saf gallery", key: 18},
+];
+
+
 export const photos = [
   {
     src: img_1 ,
@@ -129,3 +166,10 @@ export const photos = [
     key: '16'
   }
 ];
+
+export const iceCreamSection = [
+  {src: bola,  className: 'ice-cream__img', alt: 'ice cream image', key:1},
+  {src: bola2, className: 'ice-cream__img', alt: 'ice cream image', key:2},
+  { src: bola3, className: 'ice-cream__img', alt: 'ice cream image', key: 3 },
+  
+]

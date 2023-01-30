@@ -1,5 +1,4 @@
 import Coffee from "./Coffee";
-import Feature from "./Feature";
 import Glaty from "./Glaty";
 import IceCream from "./IceCream";
 import JoinUs from "./JoinUs";
@@ -8,13 +7,17 @@ import Testimonials from "./Testimonials";
 import ContactUs from "./ContactUs";
 import ControlledAccordions from "./ControlledAccordions";
 import Swiper from "./Swiper";
+import Feature from "./Feature";
+
+import { A11y, Navigation, Pagination, Scrollbar } from "swiper";
+
+
+import { heroImg } from "../itelities/photos";
 
 const HomeContent = () => {
   return (
     <main className="home-content">
-      <Swiper />
-      {/* <Feature /> */}
-      
+      <Feature />
       <Glaty />
       <IceCream />
       <Coffee />

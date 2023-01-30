@@ -137,7 +137,8 @@
 
   display: grid;
   grid-template-columns: min-content 1fr min-content;
-  justify-content: space-around;
+  // justify-content: space-around;
+  justify-items: center;
   align-items: center;
   gap: 3rem;
 
@@ -1333,7 +1334,7 @@
   grid-column: 1 / -1 ;
   max-width: 100%;
   
-
+  
 }
 
 .slider__img{
@@ -1341,3 +1342,22 @@
   height: auto;
   
 }
+
+
+
+.swiper-cards {
+  grid-column: 1 / -1 ;
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
