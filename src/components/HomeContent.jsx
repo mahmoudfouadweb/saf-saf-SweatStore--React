@@ -11,7 +11,7 @@ import Feature from "./Feature";
 
 
 
-import { heroImg } from "../itelities/photos";
+import { heroImg } from "../utilities/photos";
 
 const HomeContent = () => {
   return (

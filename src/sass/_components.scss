@@ -143,7 +143,6 @@
   .Sweets {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
-    color: inherit;
 
     &--box {
       grid-column: 1 / span 1;
@@ -151,7 +150,6 @@
     }
   }
   .bake {
-    color: inherit;
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
 
@@ -163,7 +161,6 @@
   .drinks {
     grid-column: 3 / -1;
     grid-row: 1 / span 1;
-    color: inherit;
 
     &--box {
       grid-column: 3 / -1;
@@ -201,7 +198,6 @@
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: 50% 1fr;
-  background-color: #fff;
 
   &__img {
     grid-column: 2 / -1;
@@ -471,10 +467,11 @@
       font-family: $font-primary;
       font-size: 1.8rem;
       color: $color-primary-dark;
+      background-color: $color-primary-light;
       padding: 0.5rem;
 
       &::placeholder {
-        color: $color-primary-dark;
+        color: $color-secondary;
         background-color: $color-primary-light;
         font-weight: 500;
       }
@@ -559,6 +556,7 @@
     text-align: center;
     grid-column: 1 / -1;
     margin-bottom: 4rem;
+    color: $color-primary-light;
   }
 
   &__card {
@@ -568,6 +566,7 @@
     align-items: center;
     gap: 1.5rem;
     padding-bottom: 2rem;
+    cursor: pointer;
 
     &--img {
       max-width: 100%;
@@ -577,6 +576,7 @@
       font-size: 1.2rem;
       font-weight: 300;
       text-align: center;
+      color: $color-primary-light;
     }
 
     .heading-5 {
@@ -1081,6 +1081,7 @@
     grid-template-columns: minmax(2vw, 4.5vw) minmax(max-content, 12vw);
     align-items: center;
     justify-items: start;
+    cursor: pointer;
 
     &--box {
       display: grid;
@@ -1103,15 +1104,18 @@
       grid-column: 2 / span 1;
       grid-row: 1 / span 1;
       align-self: flex-end;
+      font-size: 1.6rem;
       .bold {
         font-weight: 500;
       }
     }
-
+    
     &--text {
       grid-column: 2 / span 1;
       grid-row: 2 / span 1;
       align-self: flex-start;
+      color: $color-primary-light;
+      font-size: 1.5rem;
     }
   }
 
@@ -1125,8 +1129,10 @@
 }
 
 ///////////////////////////////////////////
-/// Blog
+/// Blog Page
 .blog-page {
+  grid-column: 1 / -1;
+  // .page__title
 }
 
 .item {
@@ -1358,13 +1364,14 @@
     scale: 1.1;
     transform: rotate(0);
   }
-  &:nth-child(2n) {
+  &:nth-child(2) {
     scale: 1.1;
     transform: rotate(-10deg);
     &:hover {
       transform: rotate(0);
     }
   }
+  
 
   img {
     max-width: 100%;
@@ -1378,7 +1385,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 18px;
+  // border-radius: 18px;
+  
 }
 
 .mySwiper4 {
@@ -1395,7 +1403,7 @@
 }
 
 .swiper {
-  margin: 100px auto;
+  // margin: 100px auto;
   width: 100%;
   height: auto;
 }

@@ -7,7 +7,7 @@
     @extend %heading;
     font-size: 4.8rem;
     font-weight: 700;
-    color: $color-grey-light-1;
+    color: $color-primary-dark;
     line-height: 1;
 }
 
@@ -17,6 +17,7 @@
     font-weight: 500;
     text-transform: uppercase;
     line-height: 1;
+    color: $color-primary-dark;
 
     &--light { color: $color-grey-light-1; }
     &--dark { color: $color-grey-dark-1; }
@@ -27,7 +28,7 @@
     
      font-size: 4.4rem; // 2.9rem
      font-weight: 700;
-    color: #333;
+     color: $color-primary-dark;
     text-transform: uppercase;
 }
 
@@ -53,10 +54,15 @@
     font-size: 1.2rem; //2rem
     font-weight: 500;
     text-transform: uppercase;
+    color: $color-primary-light;
+}
+
+p{
+    color: $color-secondary;
 }
 
 // .btn {
-//     background-color: $color-bg-primary;
+//     background-color: $color-bg-pr                                                                              ary;
 //     color: #fff;
 //     border: none;
 //     border-radius: 0;

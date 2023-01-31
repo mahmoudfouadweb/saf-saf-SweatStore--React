@@ -12,7 +12,7 @@ import "swiper/css/effect-cards";
 
 import { useState } from "react";
 
-import { bakePhotos, sweetsPhotos , drinkPhotos } from "../itelities/photos";
+import { bakePhotos, sweetsPhotos , drinkPhotos } from "../utilities/photos";
 import { EffectCards } from "swiper";
 import MenuSection from "./MenuSection";
 
@@ -40,10 +40,10 @@ const IceCream = () => {
         grabCursor={true}
         modules={[EffectCards]}
         rewind={true}
-        className="bake--box"
+       
       >
         {bakePhotos.map((item,id) => (
-          <SwiperSlide key={id}>
+          <SwiperSlide key={id}  className="bake--box">
             <img src={item.src} alt={item.alt} onClick={() => clickHandler(item.category)} />
           </SwiperSlide>
         ))}

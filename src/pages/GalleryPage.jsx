@@ -1,4 +1,4 @@
-import {  sweetsPhotos } from "../itelities/photos";
+import {  sweetsPhotos } from "../utilities/photos";
 
 import PageTitle from "../components/PageTitle";
 
