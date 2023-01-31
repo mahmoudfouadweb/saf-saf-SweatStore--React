@@ -6,10 +6,9 @@ import Blog from "./Blog";
 import Testimonials from "./Testimonials";
 import ContactUs from "./ContactUs";
 import ControlledAccordions from "./ControlledAccordions";
-import Swiper from "./Swiper";
 import Feature from "./Feature";
 
-import { A11y, Navigation, Pagination, Scrollbar } from "swiper";
+
 
 
 import { heroImg } from "../itelities/photos";
@@ -19,8 +18,8 @@ const HomeContent = () => {
     <main className="home-content">
       <Feature />
       <Glaty />
-      <IceCream />
       <Coffee />
+      <IceCream />
       <ContactUs />
       <ControlledAccordions />
       <Testimonials />

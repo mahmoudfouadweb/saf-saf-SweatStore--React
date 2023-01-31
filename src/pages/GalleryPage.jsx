@@ -1,13 +1,8 @@
-import { photos } from "../itelities/photos";
-import Photo from "../components/Photo";
+import {  sweetsPhotos } from "../itelities/photos";
+
 import PageTitle from "../components/PageTitle";
 
 import Gallery from "react-photo-gallery";
-import {
-  arrayMove,
-  SortableContainer,
-  SortableElement,
-} from "react-sortable-hoc";
 import { useState,useCallback } from "react";
 import Carousel, { Modal, ModalGateway } from "react-images";
 ////////////////////////////
@@ -29,13 +24,13 @@ const GalleryPage = () => {
   return (
     <>
       <PageTitle title={"Gallery"} />
-      <Gallery photos={photos} onClick={openLightbox} />
+      <Gallery photos={sweetsPhotos} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
             <Carousel
               currentIndex={currentImage}
-              views={photos.map(x => ({
+              views={sweetsPhotos.map(x => ({
                 ...x,
                 srcset: x.srcSet,
                 caption: x.title

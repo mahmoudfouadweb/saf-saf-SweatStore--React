@@ -1,26 +1,28 @@
 import PageTitle from "../components/PageTitle";
-import shop1 from "../assets/gallery/brown/img (3).jpg";
+import shop1 from '../assets/gallery/drink/drink28.png'
 import DiscreteSliderLabel from "../components/Slider";
 
-import cardImg from "../assets/gallery/img (19).jpg";
-import cardImg1 from "../assets/gallery/img (20).jpg";
-import cardImg2 from "../assets/gallery/img (21).jpg";
-import cardImg3 from "../assets/gallery/img (22).jpg";
-import cardImg4 from "../assets/gallery/img (3).jpg";
-import cardImg5 from "../assets/gallery/img (2).jpg";
-import cardImg6 from "../assets/gallery/img (5).jpg";
-import cardImg7 from "../assets/gallery/img (9).jpg";
-import cardImg8 from "../assets/gallery/img (11).jpg";
-import cardImg9 from "../assets/gallery/img (12).jpg";
-import cardImg10 from "../assets/gallery/img (13).jpg";
-import cardImg11 from "../assets/gallery/img (14).jpg";
-import cardImg12 from "../assets/gallery/img (15).jpg";
-import cardImg13 from "../assets/gallery/img (16).jpg";
-import cardImg14 from "../assets/gallery/img (17).jpg";
-import cardImg15 from "../assets/gallery/img (18).jpg";
-import cardImg16 from "../assets/gallery/img (19).jpg";
-import cardImg17 from "../assets/gallery/img (20).jpg";
-import cardImg18 from "../assets/gallery/img (22).jpg";
+
+import cardImg from '../assets/gallery/bake/bake1.jpg'
+import cardImg1 from '../assets/gallery/bake/bake2.jpg'
+import cardImg2 from '../assets/gallery/bake/bake3.jpg'
+import cardImg3 from '../assets/gallery/bake/bake4.jpg'
+import cardImg4 from '../assets/gallery/bake/bake5.jpg'
+import cardImg5 from '../assets/gallery/bake/bake6.jpg'
+import cardImg6 from '../assets/gallery/bake/bake7.jpg'
+import cardImg7 from '../assets/gallery/bake/bake8.jpg'
+import cardImg8 from '../assets/gallery/bake/bake9.jpg'
+import cardImg9  from '../assets/gallery/bake/bake10.jpg'
+import cardImg10  from '../assets/gallery/bake/bake11.jpg'
+import cardImg11  from '../assets/gallery/bake/bake12.jpg'
+import cardImg12  from '../assets/gallery/bake/bake13.jpg'
+import cardImg13  from '../assets/gallery/bake/bake14.jpg'
+import cardImg14  from '../assets/gallery/bake/bake15.jpg'
+import cardImg15  from '../assets/gallery/bake/bake16.jpg'
+import cardImg16  from '../assets/gallery/bake/bake17.jpg'
+import cardImg17  from '../assets/gallery/bake/bake18.jpg'
+import cardImg18  from '../assets/gallery/bake/bake19.jpg'
+
 
 import { Link } from "react-router-dom";
 import { AiFillFacebook } from "react-icons/ai";

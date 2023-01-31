@@ -1,11 +1,12 @@
-import item from "../assets/gallery/img (19).jpg";
-import item1 from "../assets/gallery/img (3).jpg";
-import item2 from "../assets/gallery/img (4).jpg";
-import item3 from "../assets/gallery/coffee22.jpg";
 
-import cardImg9 from "../assets/gallery/img (12).jpg";
-import cardImg10 from "../assets/gallery/img (14).jpg";
-import shop1 from "../assets/gallery/brown/img (3).jpg";
+import item  from '../assets/gallery/drink/drink1.jpg'
+import item1 from '../assets/gallery/drink/drink2.jpg'
+import item2 from '../assets/gallery/drink/drink3.jpg'
+import item3 from '../assets/gallery/drink/drink4.jpg'
+
+import cardImg9 from '../assets/gallery/drink/drink23.jpg'
+import cardImg10 from '../assets/gallery/drink/drink24.jpg'
+import shop1 from '../assets/gallery/drink/drink25.png'
 
 import PageTitle from "../components/PageTitle";
 
