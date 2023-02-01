@@ -133,6 +133,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets1,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets1",
     category: "sweets",
@@ -144,6 +148,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets2,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets2",
     category: "sweets",
@@ -155,6 +163,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets3,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets3",
     category: "sweets",
@@ -166,6 +178,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets4,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets4",
     category: "sweets",
@@ -177,6 +193,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets5,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets5",
     category: "sweets",
@@ -188,6 +208,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets6,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets6",
     category: "sweets",
@@ -199,6 +223,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets7,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets7",
     category: "sweets",
@@ -210,6 +238,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets8,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets8",
     category: "sweets",
@@ -221,6 +253,10 @@ export const sweetsPhotos = [
     width: 15,
     height: 30,
     src: sweets9,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets9",
     category: "sweets",
@@ -232,6 +268,10 @@ export const sweetsPhotos = [
     width: 20,
     height: 15,
     src: sweets10,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets10",
     category: "sweets",
@@ -243,6 +283,10 @@ export const sweetsPhotos = [
     width: 20,
     height: 15,
     src: sweets11,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets11",
     category: "sweets",
@@ -254,6 +298,10 @@ export const sweetsPhotos = [
     width: 20,
     height: 15,
     src: sweets12,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets12",
     category: "sweets",
@@ -265,6 +313,10 @@ export const sweetsPhotos = [
     width: 20,
     height: 15,
     src: sweets13,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets13",
     category: "sweets",
@@ -276,6 +328,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets14,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets14",
     category: "sweets",
@@ -287,6 +343,10 @@ export const sweetsPhotos = [
     width: 15,
     height: 15,
     src: sweets15,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets15",
     category: "sweets",
@@ -298,6 +358,10 @@ export const sweetsPhotos = [
     width: 15,
     height: 15,
     src: sweets16,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets16",
     category: "sweets",
@@ -309,6 +373,10 @@ export const sweetsPhotos = [
     width: 15,
     height: 15,
     src: sweets17,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets17",
     category: "sweets",
@@ -320,6 +388,10 @@ export const sweetsPhotos = [
     width: 15,
     height: 15,
     src: sweets18,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets18",
     category: "sweets",
@@ -331,6 +403,10 @@ export const sweetsPhotos = [
     width: 25,
     height: 15,
     src: sweets19,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets19",
     category: "sweets",
@@ -342,6 +418,10 @@ export const sweetsPhotos = [
     width: 25,
     height: 15,
     src: sweets20,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets20",
     category: "sweets",
@@ -353,6 +433,10 @@ export const sweetsPhotos = [
     width: 25,
     height: 15,
     src: sweets21,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets21",
     category: "sweets",
@@ -364,6 +448,10 @@ export const sweetsPhotos = [
     width: 25,
     height: 15,
     src: sweets22,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets22",
     category: "sweets",
@@ -375,6 +463,10 @@ export const sweetsPhotos = [
     width: 25,
     height: 15,
     src: sweets23,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets23",
     category: "sweets",
@@ -386,6 +478,10 @@ export const sweetsPhotos = [
     width: 25,
     height: 15,
     src: sweets24,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets24",
     category: "sweets",
@@ -397,6 +493,10 @@ export const sweetsPhotos = [
     width: 20,
     height: 15,
     src: sweets25,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets25",
     category: "sweets",
@@ -408,6 +508,10 @@ export const sweetsPhotos = [
     width: 20,
     height: 15,
     src: sweets26,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets26",
     category: "sweets",
@@ -419,6 +523,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets27,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets27",
     category: "sweets",
@@ -430,6 +538,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets28,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets28",
     category: "sweets",
@@ -441,6 +553,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets29,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets29",
     category: "sweets",
@@ -452,6 +568,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets30,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets30",
     category: "sweets",
@@ -463,6 +583,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets31,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
     key: " sweets31",
     category: "sweets",
@@ -474,6 +598,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets32,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "gallery photo",
     key: " sweets32",
     category: "sweets",
@@ -485,6 +613,10 @@ export const sweetsPhotos = [
     width: 10,
     height: 15,
     src: sweets33,
+    available: true,
+    type: ["sweet", "desert,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "gallery photo",
     key: " sweets33",
     category: "sweets",
@@ -499,6 +631,10 @@ export const sweetsPhotos = [
 export const bakePhotos = [
   {
     src: bake1,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake1",
     category: "bake",
@@ -508,6 +644,10 @@ export const bakePhotos = [
   },
   {
     src: bake2,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake2",
     category: "bake",
@@ -517,6 +657,10 @@ export const bakePhotos = [
   },
   {
     src: bake3,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake3",
     category: "bake",
@@ -526,6 +670,10 @@ export const bakePhotos = [
   },
   {
     src: bake4,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake4  ",
     category: "bake",
@@ -535,6 +683,10 @@ export const bakePhotos = [
   },
   {
     src: bake5,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake5",
     category: "bake",
@@ -544,6 +696,10 @@ export const bakePhotos = [
   },
   {
     src: bake6,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake6",
     category: "bake",
@@ -553,6 +709,10 @@ export const bakePhotos = [
   },
   {
     src: bake7,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake7",
     category: "bake",
@@ -562,6 +722,10 @@ export const bakePhotos = [
   },
   {
     src: bake8,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake8  ",
     category: "bake",
@@ -571,6 +735,10 @@ export const bakePhotos = [
   },
   {
     src: bake9,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake9",
     category: "bake",
@@ -580,6 +748,10 @@ export const bakePhotos = [
   },
   {
     src: bake10,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake10",
     category: "bake",
@@ -589,6 +761,10 @@ export const bakePhotos = [
   },
   {
     src: bake11,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake11",
     category: "bake",
@@ -598,6 +774,10 @@ export const bakePhotos = [
   },
   {
     src: bake12,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake12",
     category: "bake",
@@ -607,6 +787,10 @@ export const bakePhotos = [
   },
   {
     src: bake13,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake13",
     category: "bake",
@@ -616,6 +800,10 @@ export const bakePhotos = [
   },
   {
     src: bake14,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake14",
     category: "bake",
@@ -625,6 +813,10 @@ export const bakePhotos = [
   },
   {
     src: bake15,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake15",
     category: "bake",
@@ -634,6 +826,10 @@ export const bakePhotos = [
   },
   {
     src: bake16,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake16",
     category: "bake",
@@ -643,6 +839,10 @@ export const bakePhotos = [
   },
   {
     src: bake17,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake17",
     category: "bake",
@@ -652,6 +852,10 @@ export const bakePhotos = [
   },
   {
     src: bake18,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake18",
     category: "bake",
@@ -661,6 +865,10 @@ export const bakePhotos = [
   },
   {
     src: bake19,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake19",
     category: "bake",
@@ -670,6 +878,10 @@ export const bakePhotos = [
   },
   {
     src: bake20,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake20",
     category: "bake",
@@ -679,6 +891,10 @@ export const bakePhotos = [
   },
   {
     src: bake21,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake21",
     category: "bake",
@@ -688,6 +904,10 @@ export const bakePhotos = [
   },
   {
     src: bake22,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake22",
     category: "bake",
@@ -697,6 +917,10 @@ export const bakePhotos = [
   },
   {
     src: bake23,
+    available: true,
+    type: ["fresh", "bake"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
     key: "bake23",
     category: "bake",
@@ -711,6 +935,10 @@ export const bakePhotos = [
 export const drinkPhotos = [
   {
     src: drink1,
+    available: true,
+    type: ["nice", "smoothy", "hot"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink1",
     category: "drink",
@@ -720,6 +948,10 @@ export const drinkPhotos = [
   },
   {
     src: drink2,
+    available: true,
+    type: ["nice", "smoothy", "hot"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink2",
     category: "drink",
@@ -729,6 +961,10 @@ export const drinkPhotos = [
   },
   {
     src: drink3,
+    available: true,
+    type: ["nice", "smoothy", "hot"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink3",
     category: "drink",
@@ -738,6 +974,10 @@ export const drinkPhotos = [
   },
   {
     src: drink4,
+    available: true,
+    type: ["nice", "smoothy", "hot"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink4",
     category: "drink",
@@ -747,6 +987,10 @@ export const drinkPhotos = [
   },
   {
     src: drink5,
+    available: true,
+    type: ["nice", "smoothy", "hot"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink5",
     category: "drink",
@@ -756,6 +1000,10 @@ export const drinkPhotos = [
   },
   {
     src: drink6,
+    available: true,
+    type: ["nice", "smoothy", "hot"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink6",
     category: "drink",
@@ -765,6 +1013,10 @@ export const drinkPhotos = [
   },
   {
     src: drink7,
+    available: true,
+    type: ["nice", "smoothy", "hot"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink7",
     category: "drink",
@@ -774,6 +1026,10 @@ export const drinkPhotos = [
   },
   {
     src: drink8,
+    available: true,
+    type: ["nice", "smoothy", "hot"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink8",
     category: "drink",
@@ -783,6 +1039,10 @@ export const drinkPhotos = [
   },
   {
     src: drink9,
+    available: true,
+    type: ["nice", "smoothy", "hot"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink9",
     category: "drink",
@@ -792,6 +1052,10 @@ export const drinkPhotos = [
   },
   {
     src: drink10,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink10",
     category: "drink",
@@ -801,6 +1065,10 @@ export const drinkPhotos = [
   },
   {
     src: drink11,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink11",
     category: "drink",
@@ -810,6 +1078,10 @@ export const drinkPhotos = [
   },
   {
     src: drink12,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink12",
     category: "drink",
@@ -819,6 +1091,10 @@ export const drinkPhotos = [
   },
   {
     src: drink13,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink13",
     category: "drink",
@@ -828,6 +1104,10 @@ export const drinkPhotos = [
   },
   {
     src: drink14,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink14",
     category: "drink",
@@ -837,6 +1117,10 @@ export const drinkPhotos = [
   },
   {
     src: drink15,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink15",
     category: "drink",
@@ -846,6 +1130,10 @@ export const drinkPhotos = [
   },
   {
     src: drink16,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink16",
     category: "drink",
@@ -855,6 +1143,10 @@ export const drinkPhotos = [
   },
   {
     src: drink17,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink17",
     category: "drink",
@@ -864,6 +1156,10 @@ export const drinkPhotos = [
   },
   {
     src: drink18,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink18",
     category: "drink",
@@ -873,6 +1169,10 @@ export const drinkPhotos = [
   },
   {
     src: drink19,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink19",
     category: "drink",
@@ -882,6 +1182,10 @@ export const drinkPhotos = [
   },
   {
     src: drink20,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink20",
     category: "drink",
@@ -891,6 +1195,10 @@ export const drinkPhotos = [
   },
   {
     src: drink21,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink21",
     category: "drink",
@@ -900,6 +1208,10 @@ export const drinkPhotos = [
   },
   {
     src: drink22,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink22",
     category: "drink",
@@ -909,6 +1221,10 @@ export const drinkPhotos = [
   },
   {
     src: drink23,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink23",
     category: "drink",
@@ -918,6 +1234,10 @@ export const drinkPhotos = [
   },
   {
     src: drink24,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink24",
     category: "drink",
@@ -927,6 +1247,10 @@ export const drinkPhotos = [
   },
   {
     src: drink25,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink25",
     category: "drink",
@@ -936,6 +1260,10 @@ export const drinkPhotos = [
   },
   {
     src: drink26,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink26",
     category: "drink",
@@ -945,6 +1273,10 @@ export const drinkPhotos = [
   },
   {
     src: drink27,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink27",
     category: "drink",
@@ -954,6 +1286,10 @@ export const drinkPhotos = [
   },
   {
     src: drink28,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink28",
     category: "drink",
@@ -963,6 +1299,10 @@ export const drinkPhotos = [
   },
   {
     src: drink29,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink29",
     category: "drink",
@@ -972,6 +1312,10 @@ export const drinkPhotos = [
   },
   {
     src: drink30,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink30",
     category: "drink",
@@ -981,6 +1325,10 @@ export const drinkPhotos = [
   },
   {
     src: drink31,
+    available: true,
+    type: ["nice", "smoothy", "hot,"],
+    detailText:
+      "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "drinks photo",
     key: "drink31",
     category: "drink",
@@ -992,21 +1340,24 @@ export const drinkPhotos = [
 
 export const blogHome = [
   {
-    src: blog1,key: 'blog1',
+    src: blog1,
+    key: "blog1",
     text: "Lorem, ut quas illum tempore, repellat dolore reprehenderit reiciendis quod.",
     title: "Coffee bread",
     key: "blog1",
     className: "blog__card one",
   },
   {
-    src: blog2,key: 'blog2',
+    src: blog2,
+    key: "blog2",
     text: "Lorem, ut quas illum tempore, repellat dolore reprehenderit reiciendis quod.",
     title: "moled halawa",
     key: "blog2",
     className: "blog__card tow",
   },
   {
-    src: blog3,key: 'blog3',
+    src: blog3,
+    key: "blog3",
     text: "Lorem, ut quas illum tempore, repellat dolore reprehenderit reiciendis quod.",
     title: "markeez",
     key: "blog3",
@@ -1014,7 +1365,8 @@ export const blogHome = [
   },
   ,
   {
-    src: blog4,key: 'blog4',
+    src: blog4,
+    key: "blog4",
     text: "Lorem, ut quas illum tempore, repellat dolore reprehenderit reiciendis quod.",
     title: "chocolet lover",
     key: "blog3",
