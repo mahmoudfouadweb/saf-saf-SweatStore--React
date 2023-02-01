@@ -1341,7 +1341,7 @@ export const drinkPhotos = [
 export const blogHome = [
   {
     src: blog1,
-    key: "blog1",
+    key: "blog11",
     text: "Lorem, ut quas illum tempore, repellat dolore reprehenderit reiciendis quod.",
     title: "Coffee bread",
     key: "blog1",
@@ -1349,7 +1349,7 @@ export const blogHome = [
   },
   {
     src: blog2,
-    key: "blog2",
+    key: "blog12",
     text: "Lorem, ut quas illum tempore, repellat dolore reprehenderit reiciendis quod.",
     title: "moled halawa",
     key: "blog2",
@@ -1357,7 +1357,7 @@ export const blogHome = [
   },
   {
     src: blog3,
-    key: "blog3",
+    key: "blog13",
     text: "Lorem, ut quas illum tempore, repellat dolore reprehenderit reiciendis quod.",
     title: "markeez",
     key: "blog3",
@@ -1366,7 +1366,7 @@ export const blogHome = [
   ,
   {
     src: blog4,
-    key: "blog4",
+    key: "blog14",
     text: "Lorem, ut quas illum tempore, repellat dolore reprehenderit reiciendis quod.",
     title: "chocolet lover",
     key: "blog3",

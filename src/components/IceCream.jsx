@@ -25,13 +25,8 @@ const IceCream = () => {
     if(category === 'sweets') setImages([...sweetsPhotos])
     if(category === 'drink') setImages([...drinkPhotos])
     else console.log('error here no category found');
-    
-    // if  (images.length === bakePhotos.length) setImages([])
-    // if (images.length === sweetsPhotos.length) setImages([])
-    // if (images.length === drinkPhotos.length) setImages([])
-
   };
-  console.log(images);
+  // console.log(images);
   return (
     <section className="ice-cream">
       <h3 className="heading-3 bake">bake</h3>

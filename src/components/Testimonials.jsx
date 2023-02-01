@@ -71,7 +71,7 @@ const Testimonials = () => {
         className="mySwiper4"
       >
         {DUMMY__DATA.map((item) => (
-          <SwiperSlide className="test">
+          <SwiperSlide className="test" key={item.key}>
             <img
               src={item.src}
               alt="testimonials"

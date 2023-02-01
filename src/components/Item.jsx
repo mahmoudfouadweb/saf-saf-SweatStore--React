@@ -1,7 +1,7 @@
 import item3 from "../assets/gallery/drink/drink4.jpg";
 
 const Item = ({data}) => {
-  console.log(data);
+  // console.log(data);
   return (
     <article className="item__heading">
         <div className="item__left">

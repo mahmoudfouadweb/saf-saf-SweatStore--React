@@ -1,6 +1,4 @@
-import item from "../assets/gallery/drink/drink1.jpg";
-import item1 from "../assets/gallery/drink/drink2.jpg";
-import item2 from "../assets/gallery/drink/drink3.jpg";
+
 import item3 from "../assets/gallery/drink/drink4.jpg";
 
 
@@ -19,7 +17,7 @@ const ItemPage = (props) => {
     <article className="item">
       <PageTitle title={itemTitle} subTitle={"hot drink"} />
 
-      <Item data={sweetsPhotos} />
+      <Item data={sweetsPhotos} key={'fdsfd'} />
 
       <section className="item__description">
         <h5 className="heading-5">description</h5>

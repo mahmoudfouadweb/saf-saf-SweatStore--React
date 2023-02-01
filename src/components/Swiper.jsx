@@ -32,7 +32,7 @@ export default ({ photo, slidesPerView }) => {
       navigation
       slidesPerView={slidesPerView}
       pagination={{ clickable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
+      onSwiper={() => {}}
       onSlideChange={() => console.log("slide change")}
       autoplay={1000}
       allowSlideNext={true}
