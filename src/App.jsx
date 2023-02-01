@@ -24,7 +24,7 @@ function App() {
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/menu" element={<MenuPage />} />
-        <Route path="/item" element={<ItemPage />} />
+        <Route path="/item/:id" element={<ItemPage />} />
         <Route path="/blog" element={<BlogPage />} />
       </Routes>
       <Footer />
