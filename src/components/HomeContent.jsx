@@ -8,10 +8,7 @@ import ContactUs from "./ContactUs";
 import ControlledAccordions from "./ControlledAccordions";
 import Feature from "./Feature";
 
-
-
-
-import { heroImg } from "../utilities/photos";
+import { bakePhotos, drinkPhotos, heroImg, sweetsPhotos } from "../utilities/photos";
 
 const HomeContent = () => {
   return (
@@ -19,7 +16,7 @@ const HomeContent = () => {
       <Feature />
       <Glaty />
       <Coffee />
-      <IceCream />
+      <IceCream photos={[...bakePhotos, ...sweetsPhotos, ...drinkPhotos]} />
       <ContactUs />
       <ControlledAccordions />
       <Testimonials />

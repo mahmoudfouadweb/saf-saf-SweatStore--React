@@ -12,19 +12,22 @@ import "swiper/css/effect-cards";
 
 import { useState } from "react";
 
-import { bakePhotos, sweetsPhotos , drinkPhotos } from "../utilities/photos";
+// import { bakePhotos, sweetsPhotos , drinkPhotos } from "../utilities/photos";
 import { EffectCards } from "swiper";
 import MenuSection from "./MenuSection";
 
-const IceCream = () => {
+const IceCream = ({ photos }) => {
+  console.log(photos);
   const [images, setImages] = useState([]);
 
   const clickHandler = (category) => {
     console.log("hi click handler");
-    if(category === 'bake') setImages([...bakePhotos])
-    if(category === 'sweets') setImages([...sweetsPhotos])
-    if(category === 'drink') setImages([...drinkPhotos])
-    else console.log('error here no category found');
+    // const filtredBake = photos.filter((item) => item.category === category);
+    console.log(category);
+    if (category === "bake") setImages([...filtredBake]);
+    if (category === "sweets") setImages([...filtredBake]);
+    if (category === "drink") setImages([...filtredBake]);
+    else console.log("error here no category found");
   };
   // console.log(images);
   return (
@@ -35,11 +38,14 @@ const IceCream = () => {
         grabCursor={true}
         modules={[EffectCards]}
         rewind={true}
-       
       >
-        {bakePhotos.map((item,id) => (
-          <SwiperSlide key={id}  className="bake--box">
-            <img src={item.src} alt={item.alt} onClick={() => clickHandler(item.category)} />
+        {photos.filter((item) => item.category === 'bake').map((item, id) => (
+          <SwiperSlide key={"bake" + id} className="bake--box">
+            <img
+              src={item.src}
+              alt={item.alt}
+              onClick={() => clickHandler(item.category)}
+            />
           </SwiperSlide>
         ))}
       </Swiper>
@@ -51,9 +57,13 @@ const IceCream = () => {
         rewind={true}
         className="drinks--box"
       >
-        {drinkPhotos.map((item,id) => (
-          <SwiperSlide key={id}>
-            <img src={item.src} alt={item.alt}  onClick={() => clickHandler(item.category)} />
+        {photos.filter((item) => item.category === 'drink').map((item, id) => (
+          <SwiperSlide key={"drinks and ice cream" + id}>
+            <img
+              src={item.src}
+              alt={item.alt}
+              onClick={() => clickHandler(item.category)}
+            />
           </SwiperSlide>
         ))}
       </Swiper>
@@ -66,9 +76,13 @@ const IceCream = () => {
         rewind={true}
         className="Sweets--box"
       >
-        {sweetsPhotos.map((item,id) => (
-          <SwiperSlide key={id}>
-            <img src={item.src} alt={item.alt}  onClick={() => clickHandler(item.category)} />
+        {photos.filter((item) => item.category === 'sweets').map((item, id) => (
+          <SwiperSlide key={"Sweets" + id}>
+            <img
+              src={item.src}
+              alt={item.alt}
+              onClick={() => clickHandler(item.category)}
+            />
           </SwiperSlide>
         ))}
       </Swiper>
