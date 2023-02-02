@@ -12,7 +12,6 @@ import "swiper/css/effect-cards";
 
 import { useState } from "react";
 
-// import { bakePhotos, sweetsPhotos , drinkPhotos } from "../utilities/photos";
 import { EffectCards } from "swiper";
 import MenuSection from "./MenuSection";
 
@@ -22,14 +21,10 @@ const IceCream = ({ photos }) => {
 
   const clickHandler = (category) => {
     console.log("hi click handler");
-    // const filtredBake = photos.filter((item) => item.category === category);
+    const filtredPhotos = photos.filter((item) => item.category === category);
     console.log(category);
-    if (category === "bake") setImages([...filtredBake]);
-    if (category === "sweets") setImages([...filtredBake]);
-    if (category === "drink") setImages([...filtredBake]);
-    else console.log("error here no category found");
+    setImages([...filtredPhotos])
   };
-  // console.log(images);
   return (
     <section className="ice-cream">
       <h3 className="heading-3 bake">bake</h3>
