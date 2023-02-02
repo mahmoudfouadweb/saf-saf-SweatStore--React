@@ -8,16 +8,29 @@ import shop1 from "../assets/gallery/drink/drink25.png";
 
 import PageTitle from "../components/PageTitle";
 import Item from "../components/Item";
-import { sweetsPhotos } from "../utilities/photos";
 
-const ItemPage = (props) => {
-  console.log(props);
+import { useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
+
+
+const ItemPage = ({photos}) => {
   const itemTitle = "coffee";
+  
+  const [isItem, setIsItem] = useState({})
+  let { id } = useParams();
+  
+  useEffect(() => {
+    const currentId = photos.filter(item => item.key === id)
+    console.log(currentId[0]);
+    setIsItem(currentId[0])
+  }, [])
+  
+  
   return (
     <article className="item">
       <PageTitle title={itemTitle} subTitle={"hot drink"} />
 
-      <Item data={sweetsPhotos} key={'fdsfd'} />
+      <Item data={isItem} key={'fdsfd'} />
 
       <section className="item__description">
         <h5 className="heading-5">description</h5>

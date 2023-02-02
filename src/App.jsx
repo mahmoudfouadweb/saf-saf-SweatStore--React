@@ -12,7 +12,7 @@ import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import GalleryPage from "./pages/GalleryPage";
 
-import { bakePhotos, drinkPhotos, sweetsPhotos } from "../utilities/photos";
+import { bakePhotos, drinkPhotos, sweetsPhotos } from "./utilities/photos";
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/shop" element={<Shop photos={[...bakePhotos, ...sweetsPhotos, ...drinkPhotos]}/>} />
         <Route path="/menu" element={<MenuPage />} />
-        <Route path="/item/:id" element={<ItemPage />} />
+        <Route path="/item/:id" element={<ItemPage photos={[...bakePhotos, ...sweetsPhotos, ...drinkPhotos]}/>} />
         <Route path="/blog" element={<BlogPage />} />
       </Routes>
       <Footer />

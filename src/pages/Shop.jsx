@@ -1,30 +1,34 @@
-import PageTitle from "../components/PageTitle";
+import { useState } from "react";
+import { Link, useParams } from "react-router-dom";
+import { AiFillFacebook } from "react-icons/ai";
+import { FaInstagramSquare } from "react-icons/fa";
+import { BsTwitter } from "react-icons/bs";
 
+import PageTitle from "../components/PageTitle";
+import Blog from "../components/Blog";
 import DiscreteSliderLabel from "../components/Slider";
 
 import cardImg from "../assets/gallery/bake/bake1.jpg";
 import cardImg1 from "../assets/gallery/bake/bake2.jpg";
 
-import { Link } from "react-router-dom";
-import { AiFillFacebook } from "react-icons/ai";
-import { FaInstagramSquare } from "react-icons/fa";
-import { BsTwitter } from "react-icons/bs";
-import Blog from "../components/Blog";
-// import { bakePhotos, drinkPhotos, sweetsPhotos } from "../utilities/photos";
 import { sweetsDeserts } from "../utilities/dummyData";
-import { useState } from "react";
+import { drinkPhotos } from "../utilities/photos";
+
 
 const Shop = ({ photos }) => {
-  const [isCategory, setIsCategory] = useState([...photos])
+  const [isCategory, setIsCategory] = useState([...photos]);
   
-  console.warn(isCategory);
-  const categoryHandler = () => {
-    setIsCategory()
+  let { id } = useParams();
+
+  const categoryHandler = (category) => {
+    const filteredCategory = photos.filter(item => item.category === category)
+    setIsCategory([...filteredCategory])
   };
+  console.log(id);
+  // console.warn(isCategory);
   return (
     <section className="shop">
       <PageTitle title={"Shop"} subTitle={"sub"} />
-
       <aside className="shop__sidebar">
         <h5 className="heading-5 filter">Filter</h5>
         <DiscreteSliderLabel />
@@ -51,30 +55,36 @@ const Shop = ({ photos }) => {
 
         <h5 className="heading-5 category">categories</h5>
         <ul className="shop__sidebar--category">
-          <li
-            className="shop__sidebar--category-item"
-            onClick={() => categoryHandler()}
-          >
-            <a className="shop__sidebar--category-link">sweets</a>
+          <li className="shop__sidebar--category-item">
+            <a
+              className="shop__sidebar--category-link"
+              onClick={(e) => categoryHandler(e.target.innerText)}
+            >
+              sweets
+            </a>
           </li>
-          <li
-            className="shop__sidebar--category-item"
-            onClick={() => categoryHandler()}
-          >
-            <a className="shop__sidebar--category-link">drinks</a>
+          <li className="shop__sidebar--category-item">
+            <a
+              className="shop__sidebar--category-link"
+              onClick={(e) => categoryHandler(e.target.innerText)}
+            >
+              drink
+            </a>
           </li>
-          <li
-            className="shop__sidebar--category-item"
-            onClick={() => categoryHandler()}
-          >
-            <a className="shop__sidebar--category-link">bake</a>
+          <li className="shop__sidebar--category-item">
+            <a
+              className="shop__sidebar--category-link"
+              onClick={(e) => categoryHandler(e.target.innerText)}
+            >
+              bake
+            </a>
           </li>
         </ul>
 
         <h5 className="heading-5 tags">tags</h5>
         <div className="shop__sidebar--tag-box">
-          {sweetsDeserts.map((item) => (
-            <div className="shop__sidebar--tag" key={generateId("tag")}>
+          {sweetsDeserts.map((item,idx) => (
+            <div className="shop__sidebar--tag" key={idx * 2}>
               <p className="shop__sidebar--tag-text">{item}</p>
             </div>
           ))}
@@ -88,17 +98,17 @@ const Shop = ({ photos }) => {
         </div>
       </aside>
       <div className="shop__card--box">
-        {bakePhotos.map((item) => (
-          <Link to={`/item/${item.key}`} className="shop__card">
+        {isCategory.map((item) => (
+          <Link to={`/item/${item.key}`} className="shop__card" key={item.key + 'shop'}>
             <div className="shop__card--img-box">
-              <img src={item.src} alt="" className="shop__card--img" />
+              <img src={item.src} alt={item.alt} className="shop__card--img" />
             </div>
             <h6 className="heading-6">{item.title}</h6>
             <p className="shop__card--text">{item.text}</p>
           </Link>
         ))}
       </div>
-
+      h
       <section className="shop__category">
         <h4 className="heading-4">delicios</h4>
         <h2 className="heading-2">sweets and dessert</h2>
@@ -111,7 +121,7 @@ const Shop = ({ photos }) => {
 
         <div className="shop__category--box">
           {drinkPhotos.splice(1, 8).map((item) => (
-            <div className="shop__card" key={"drink" + item.key}>
+            <div className="shop__card" key={item.key + '1'}>
               <div className="shop__card--img-box">
                 <img
                   src={item.src}

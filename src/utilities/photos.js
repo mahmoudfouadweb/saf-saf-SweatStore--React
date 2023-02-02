@@ -670,12 +670,12 @@ export const bakePhotos = [
   },
   {
     src: bake4,
-    available: true,
+    available: false,
     type: ["fresh", "bake"],
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "bake photo",
-    key: "bake4  ",
+    key: "bake4",
     category: "bake",
     title: "bake title",
     text: "bake fresh and hot",
