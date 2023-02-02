@@ -138,7 +138,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets1",
+    key: "sweets1",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -153,7 +153,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets2",
+    key: "sweets2",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -168,7 +168,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets3",
+    key: "sweets3",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -183,7 +183,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets4",
+    key: "sweets4",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -198,7 +198,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets5",
+    key: "sweets5",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -213,7 +213,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets6",
+    key: "sweets6",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -228,7 +228,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets7",
+    key: "sweets7",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -243,7 +243,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets8",
+    key: "sweets8",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -258,7 +258,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets9",
+    key: "sweets9",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -273,7 +273,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets10",
+    key: "sweets10",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -288,7 +288,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets11",
+    key: "sweets11",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -303,7 +303,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets12",
+    key: "sweets12",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -318,7 +318,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets13",
+    key: "sweets13",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -333,7 +333,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets14",
+    key: "sweets14",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -348,7 +348,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets15",
+    key: "sweets15",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -363,7 +363,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets16",
+    key: "sweets16",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -378,7 +378,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets17",
+    key: "sweets17",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -393,7 +393,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets18",
+    key: "sweets18",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -408,7 +408,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets19",
+    key: "sweets19",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -423,7 +423,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets20",
+    key: "sweets20",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -438,7 +438,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets21",
+    key: "sweets21",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -453,7 +453,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets22",
+    key: "sweets22",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -468,7 +468,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets23",
+    key: "sweets23",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -483,7 +483,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets24",
+    key: "sweets24",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -498,7 +498,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets25",
+    key: "sweets25",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -513,7 +513,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets26",
+    key: "sweets26",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -528,7 +528,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets27",
+    key: "sweets27",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -543,7 +543,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets28",
+    key: "sweets28",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -558,7 +558,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets29",
+    key: "sweets29",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -573,7 +573,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets30",
+    key: "sweets30",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -588,7 +588,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "sweets photo",
-    key: " sweets31",
+    key: "sweets31",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -603,7 +603,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "gallery photo",
-    key: " sweets32",
+    key: "sweets32",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -618,7 +618,7 @@ export const sweetsPhotos = [
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
     alt: "gallery photo",
-    key: " sweets33",
+    key: "sweets33",
     category: "sweets",
     title: "bake ",
     text: "bake nice and hot",
@@ -670,7 +670,7 @@ export const bakePhotos = [
   },
   {
     src: bake4,
-    available: false,
+    available: true,
     type: ["fresh", "bake"],
     detailText:
       "grg rgerhg erhgregreg erhger jheriojhr egre griuegheriger  greiughre iu gurhe wger giure ger geruhg erguher gerg ieruhg ergoierh giuhrg roighrg u goierhg ergieruhgeriugh ergiuher gerhgeriug ergjherg erigher gerigeroguh oierhv righer gieruhg rgergiuherg iugher giuerh gerihg ergiuherg ergiuherg eroihgerugherjgh",
