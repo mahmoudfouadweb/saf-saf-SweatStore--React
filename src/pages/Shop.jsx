@@ -4,23 +4,19 @@ import DiscreteSliderLabel from "../components/Slider";
 
 import cardImg from "../assets/gallery/bake/bake1.jpg";
 import cardImg1 from "../assets/gallery/bake/bake2.jpg";
-import cardImg2 from "../assets/gallery/bake/bake3.jpg";
-import cardImg3 from "../assets/gallery/bake/bake4.jpg";
-import cardImg4 from "../assets/gallery/bake/bake5.jpg";
-import cardImg5 from "../assets/gallery/bake/bake6.jpg";
-import cardImg6 from "../assets/gallery/bake/bake7.jpg";
-import cardImg7 from "../assets/gallery/bake/bake8.jpg";
-import cardImg8 from "../assets/gallery/bake/bake9.jpg";
+
 
 import { Link } from "react-router-dom";
 import { AiFillFacebook } from "react-icons/ai";
 import { FaInstagramSquare } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import Blog from "../components/Blog";
-import { bakePhotos, sweetsPhotos } from "../utilities/photos";
+import { bakePhotos, drinkPhotos, sweetsPhotos } from "../utilities/photos";
 import { sweetsDeserts } from "../utilities/dummyData";
+import useGenerateId from "../utilities/useGenerateId";
 
 const Shop = () => {
+  const generateId = useGenerateId();
   return (
     <section className="shop">
       <PageTitle title={"Shop"} subTitle={"sub"} />
@@ -41,7 +37,7 @@ const Shop = () => {
         </div>
         <div className="shop__sidebar--card">
           <img
-            src={cardImg}
+            src={cardImg1}
             alt="card photo"
             className="shop__sidebar--card-img"
           />
@@ -95,8 +91,9 @@ const Shop = () => {
 
         <h5 className="heading-5 tags">tags</h5>
         <div className="shop__sidebar--tag-box">
+          
           {sweetsDeserts.map((item) => (
-            <div className="shop__sidebar--tag">
+            <div className="shop__sidebar--tag"  key={generateId('tag')}>
               <p className="shop__sidebar--tag-text">{item}</p>
             </div>
           ))}
@@ -110,8 +107,9 @@ const Shop = () => {
         </div>
       </aside>
       <div className="shop__card--box">
-        {sweetsPhotos.map((item) => (
-          <Link to={`/item/${item.key}`} className="shop__card">
+        
+        {bakePhotos.map((item) => (
+          <Link to={`/item/${item.key}`} className="shop__card" >
             <div className="shop__card--img-box">
               <img src={item.src} alt="" className="shop__card--img" />
             </div>
@@ -132,8 +130,8 @@ const Shop = () => {
         </p>
 
         <div className="shop__category--box">
-          {bakePhotos.splice(1, 8).map((item) => (
-            <div className="shop__card">
+          {drinkPhotos.splice(1, 8).map((item) => (
+            <div className="shop__card" key={item.key}>
               <div className="shop__card--img-box">
                 <img
                   src={item.src}
