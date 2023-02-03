@@ -60,7 +60,7 @@ const Shop = ({ photos }) => {
               className="shop__sidebar--category-link"
               onClick={(e) => categoryHandler(e.target.innerText)}
             >
-              sweets
+              sweet
             </a>
           </li>
           <li className="shop__sidebar--category-item">
@@ -76,7 +76,7 @@ const Shop = ({ photos }) => {
               className="shop__sidebar--category-link"
               onClick={(e) => categoryHandler(e.target.innerText)}
             >
-              bake
+              bakes
             </a>
           </li>
         </ul>

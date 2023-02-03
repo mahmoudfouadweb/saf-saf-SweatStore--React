@@ -1,7 +1,7 @@
 import PageTitle from "../components/PageTitle";
 import Item from "../components/Item";
 
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 const ItemPage = ({ photos }) => {
@@ -11,23 +11,21 @@ const ItemPage = ({ photos }) => {
   const [isRelated, setIsRelated] = useState([]);
 
   let { id } = useParams();
-  console.log(id);
-  console.log(id.slice(0, -2));
-
+  
   useEffect(() => {
     const currentId = photos.filter((item) => item.key === id);
     setIsItem(currentId[0]);
-    // const showRelated = photos
-    //   .filter((item) => {
-    //     if (id.slice(0, -2) === 'sweets') item.category === id.slice(0, -2);
-    //     if (id.slice(0, -1) === 'sweets') item.category === id.slice(0, -1);
-        
-    //     else item.category === id.slice(0, -1);
-    //   })
-    //   .splice(0, 4);
-    // console.warn(showRelated);
-    // setIsRelated(showRelated);
-  }, []);
+    const showRelated = photos
+      .filter((item) => {
+        if (item.category === id.slice(0, -1)) return item.category;
+        if (item.category === id.slice(0, -2)) return item.category;
+      }).splice(Math.floor(Math.random() *7), 4);
+      
+    console.log('showRelated +++',showRelated);
+    setIsRelated(showRelated);
+    console.log('random :>> ', Math.floor(Math.random() *2));
+  }, [id]);
+  
 
   // console.log("showRelated ===>", isRelated);
 
@@ -52,7 +50,7 @@ const ItemPage = ({ photos }) => {
         <h3 className="heading-5 frist">related products</h3>
 
         {isRelated.map((item) => (
-          <div className="item__related--card">
+          <div className="item__related--card"  key={item.key + 'new'}>
             <img
               src={item.src}
               alt="House 1"
@@ -69,7 +67,7 @@ const ItemPage = ({ photos }) => {
             <div className="item__related--card-price">
               <p>${item.price}</p>
             </div>
-            <button className="btn-m item__related--card-btn">show more</button>
+            <Link to={`/item/${item.key}`}><button className="btn-m item__related--card-btn">show more</button></Link>
           </div>
         ))}
       </section>

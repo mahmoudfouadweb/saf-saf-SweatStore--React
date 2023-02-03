@@ -34,8 +34,8 @@ const IceCream = ({ photos }) => {
         modules={[EffectCards]}
         rewind={true}
       >
-        {photos.filter((item) => item.category === 'bake').map((item, id) => (
-          <SwiperSlide key={"bake" + id} className="bake--box">
+        {photos.filter((item) => item.category === 'bakes').map((item, id) => (
+          <SwiperSlide key={"bakes" + id} className="bake--box">
             <img
               src={item.src}
               alt={item.alt}
@@ -71,8 +71,8 @@ const IceCream = ({ photos }) => {
         rewind={true}
         className="Sweets--box"
       >
-        {photos.filter((item) => item.category === 'sweets').map((item, id) => (
-          <SwiperSlide key={"Sweets" + id}>
+        {photos.filter((item) => item.category === 'sweet').map((item, id) => (
+          <SwiperSlide key={"Sweet" + id}>
             <img
               src={item.src}
               alt={item.alt}

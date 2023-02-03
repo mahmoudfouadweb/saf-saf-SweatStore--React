@@ -25,7 +25,6 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/shop" element={<Shop photos={[...bakePhotos, ...sweetsPhotos, ...drinkPhotos]}/>} />
-        <Route path="/menu" element={<MenuPage />} />
         <Route path="/item/:id" element={<ItemPage photos={[...bakePhotos, ...sweetsPhotos, ...drinkPhotos]}/>} />
         <Route path="/blog" element={<BlogPage />} />
       </Routes>
