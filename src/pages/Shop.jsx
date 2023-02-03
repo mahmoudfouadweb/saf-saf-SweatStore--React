@@ -24,8 +24,6 @@ const Shop = ({ photos }) => {
     const filteredCategory = photos.filter(item => item.category === category)
     setIsCategory([...filteredCategory])
   };
-  console.log(id);
-  // console.warn(isCategory);
   return (
     <section className="shop">
       <PageTitle title={"Shop"} subTitle={"sub"} />
