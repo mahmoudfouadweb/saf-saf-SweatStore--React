@@ -5,7 +5,7 @@ import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 const ItemPage = ({ photos }) => {
-  const itemTitle = "coffee";
+  let itemTitle = "Safsaf";
 
   const [isItem, setIsItem] = useState({});
   const [isRelated, setIsRelated] = useState([]);
@@ -19,7 +19,8 @@ const ItemPage = ({ photos }) => {
       .filter((item) => {
         if (item.category === id.slice(0, -1)) return item.category;
         if (item.category === id.slice(0, -2)) return item.category;
-      }).splice(Math.floor(Math.random() *7), 4);
+      }).splice(Math.floor(Math.random() * 7), 4);
+      itemTitle = currentId[0].title
       
     console.log('showRelated +++',showRelated);
     setIsRelated(showRelated);
@@ -32,7 +33,7 @@ const ItemPage = ({ photos }) => {
   const relatedHandler = () => {};
   return (
     <article className="item">
-      <PageTitle title={itemTitle} subTitle={"hot drink"} />
+      <PageTitle title={isItem.title} subTitle={isItem.category} />
 
       <Item data={isItem} key={"fdsfd"} />
 

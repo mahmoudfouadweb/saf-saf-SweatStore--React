@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { AiFillFacebook } from "react-icons/ai";
 import { FaInstagramSquare } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
@@ -18,7 +18,6 @@ import { drinkPhotos } from "../utilities/photos";
 const Shop = ({ photos }) => {
   const [isCategory, setIsCategory] = useState([...photos]);
   
-  let { id } = useParams();
 
   const categoryHandler = (category) => {
     const filteredCategory = photos.filter(item => item.category === category)
@@ -119,7 +118,7 @@ const Shop = ({ photos }) => {
 
         <div className="shop__category--box">
           {drinkPhotos.splice(1, 8).map((item) => (
-            <div className="shop__card" key={item.key + '1'}>
+            <Link to={`/item/${item.key}`} className="shop__card" key={item.key}>
               <div className="shop__card--img-box">
                 <img
                   src={item.src}
@@ -129,7 +128,7 @@ const Shop = ({ photos }) => {
               </div>
               <h6 className="heading-6">{item.title}</h6>
               <p className="shop__card--text">{item.text}</p>
-            </div>
+            </Link>
           ))}
         </div>
       </section>
