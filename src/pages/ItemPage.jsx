@@ -1,41 +1,36 @@
+import { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
+// Local components
 import PageTitle from "../components/PageTitle";
 import Item from "../components/Item";
-
-import { Link, useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
+// Blog local Items
+import { blogHome } from "../utilities/photos";
 
 const ItemPage = ({ photos }) => {
-  let itemTitle = "Safsaf";
-
   const [isItem, setIsItem] = useState({});
   const [isRelated, setIsRelated] = useState([]);
-
   let { id } = useParams();
-  
   useEffect(() => {
-    const currentId = photos.filter((item) => item.key === id);
+    const conArrays = [...photos, ...blogHome]
+    console.log('conArrays',conArrays);
+    const currentId = conArrays.filter(
+      (item) => item ? item.key === id : console.log('error')
+    );
     setIsItem(currentId[0]);
     const showRelated = photos
       .filter((item) => {
-        if (item.category === id.slice(0, -1)) return item.category;
-        if (item.category === id.slice(0, -2)) return item.category;
-      }).splice(Math.floor(Math.random() * 7), 4);
-      itemTitle = currentId[0].title
-      
-    console.log('showRelated +++',showRelated);
+        if (item.category === id.slice(0, -1) && item) return item.category;
+        if (item.category === id.slice(0, -2) && item) return item.category;
+        else console.log('error');
+      })
+      .splice(Math.floor(Math.random() * 7), 4);
     setIsRelated(showRelated);
-    console.log('random :>> ', Math.floor(Math.random() *2));
   }, [id]);
-  
-
-  // console.log("showRelated ===>", isRelated);
-
-  const relatedHandler = () => {};
   return (
     <article className="item">
       <PageTitle title={isItem.title} subTitle={isItem.category} />
 
-      <Item data={isItem} key={"fdsfd"} />
+      <Item data={isItem}/>
 
       <section className="item__description">
         <h5 className="heading-5">description</h5>
@@ -50,8 +45,10 @@ const ItemPage = ({ photos }) => {
       <section className="item__related">
         <h3 className="heading-5 frist">related products</h3>
 
+        {/* Related Items */}
+
         {isRelated.map((item) => (
-          <div className="item__related--card"  key={item.key + 'new'}>
+            <Link to={`/item/${item.key}`} className="item__related--card" key={item.key + "new"}>
             <img
               src={item.src}
               alt="House 1"
@@ -68,8 +65,10 @@ const ItemPage = ({ photos }) => {
             <div className="item__related--card-price">
               <p>${item.price}</p>
             </div>
-            <Link to={`/item/${item.key}`}><button className="btn-m item__related--card-btn">show more</button></Link>
-          </div>
+              <button className="btn-m item__related--card-btn">
+                show more
+              </button>
+            </Link>
         ))}
       </section>
     </article>

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = ({ setParam }) => {
   return (
     <nav className="nav">
-      <img src={logo1} alt="" className="nav__logo" />
+      <NavLink to={'/'}><img  src={logo1} alt="" className="nav__logo" /></NavLink>
       <ul className="nav__items">
         <li className="nav__item">
           <NavLink exact={"true"} to={"/"} className="nav__link">
@@ -21,11 +21,6 @@ const Navbar = ({ setParam }) => {
         <li className="nav__item">
           <NavLink to={"gallery"} className="nav__link">
             gallery
-          </NavLink>
-        </li>
-        <li className="nav__item">
-          <NavLink to={"blog"} className="nav__link">
-            blog
           </NavLink>
         </li>
         <li className="nav__item">

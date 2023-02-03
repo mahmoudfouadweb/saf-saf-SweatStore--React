@@ -5,8 +5,6 @@ import Navbar from "./components/Navbar";
 import "./App.scss";
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
-import MenuPage from "./pages/MenuPage";
-import BlogPage from "./pages/BlogPage";
 import ItemPage from "./pages/ItemPage";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
@@ -26,7 +24,7 @@ function App() {
         <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/shop" element={<Shop photos={[...bakePhotos, ...sweetsPhotos, ...drinkPhotos]}/>} />
         <Route path="/item/:id" element={<ItemPage photos={[...bakePhotos, ...sweetsPhotos, ...drinkPhotos]}/>} />
-        <Route path="/blog" element={<BlogPage />} />
+        {/* <Route path="/blog" element={<BlogPage />} /> */}
       </Routes>
       <Footer />
       </div>
