@@ -16,15 +16,10 @@ import { EffectCards } from "swiper";
 import MenuSection from "./MenuSection";
 
 const IceCream = ({ photos }) => {
-  console.log(photos);
   const [images, setImages] = useState([]);
 
-  const clickHandler = (category) => {
-    console.log("hi click handler");
-    const filtredPhotos = photos.filter((item) => item.category === category);
-    // console.log(category);
-    setImages([...filtredPhotos])
-  };
+  const clickHandler = (category) =>
+    setImages(photos.filter((item) => item.category === category));
   return (
     <section className="ice-cream">
       <h3 className="heading-3 bake">bake</h3>
@@ -34,15 +29,17 @@ const IceCream = ({ photos }) => {
         modules={[EffectCards]}
         rewind={true}
       >
-        {photos.filter((item) => item.category === 'bakes').map((item, id) => (
-          <SwiperSlide key={"bakes" + id} className="bake--box">
-            <img
-              src={item.src}
-              alt={item.alt}
-              onClick={() => clickHandler(item.category)}
-            />
-          </SwiperSlide>
-        ))}
+        {photos
+          .filter((item) => item.category === "bakes")
+          .map((item, id) => (
+            <SwiperSlide key={"bakes" + id} className="bake--box">
+              <img
+                src={item.src}
+                alt={item.alt}
+                onClick={() => clickHandler(item.category)}
+              />
+            </SwiperSlide>
+          ))}
       </Swiper>
       <h3 className="heading-3 drinks">drinks and ice cream</h3>
       <Swiper
@@ -52,15 +49,17 @@ const IceCream = ({ photos }) => {
         rewind={true}
         className="drinks--box"
       >
-        {photos.filter((item) => item.category === 'drink').map((item, id) => (
-          <SwiperSlide key={"drinks and ice cream" + id}>
-            <img
-              src={item.src}
-              alt={item.alt}
-              onClick={() => clickHandler(item.category)}
-            />
-          </SwiperSlide>
-        ))}
+        {photos
+          .filter((item) => item.category === "drink")
+          .map((item, id) => (
+            <SwiperSlide key={"drinks and ice cream" + id}>
+              <img
+                src={item.src}
+                alt={item.alt}
+                onClick={() => clickHandler(item.category)}
+              />
+            </SwiperSlide>
+          ))}
       </Swiper>
 
       <h3 className="heading-3 Sweets">Sweets</h3>
@@ -71,15 +70,17 @@ const IceCream = ({ photos }) => {
         rewind={true}
         className="Sweets--box"
       >
-        {photos.filter((item) => item.category === 'sweet').map((item, id) => (
-          <SwiperSlide key={"Sweet" + id}>
-            <img
-              src={item.src}
-              alt={item.alt}
-              onClick={() => clickHandler(item.category)}
-            />
-          </SwiperSlide>
-        ))}
+        {photos
+          .filter((item) => item.category === "sweet")
+          .map((item, id) => (
+            <SwiperSlide key={"Sweet" + id}>
+              <img
+                src={item.src}
+                alt={item.alt}
+                onClick={() => clickHandler(item.category)}
+              />
+            </SwiperSlide>
+          ))}
       </Swiper>
 
       <MenuSection photos={images} />
