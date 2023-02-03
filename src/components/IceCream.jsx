@@ -22,7 +22,7 @@ const IceCream = ({ photos }) => {
   const clickHandler = (category) => {
     console.log("hi click handler");
     const filtredPhotos = photos.filter((item) => item.category === category);
-    console.log(category);
+    // console.log(category);
     setImages([...filtredPhotos])
   };
   return (
