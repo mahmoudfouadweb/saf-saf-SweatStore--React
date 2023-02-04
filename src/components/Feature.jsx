@@ -1,4 +1,3 @@
-import { A11y, EffectFade, Navigation, Pagination, Scrollbar,EffectCreative } from "swiper";
 import { heroImg } from "../utilities/photos";
 import Swiper from "./Swiper";
 

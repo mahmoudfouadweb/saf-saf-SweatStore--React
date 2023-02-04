@@ -8,7 +8,7 @@ import ContactUs from "./ContactUs";
 import ControlledAccordions from "./ControlledAccordions";
 import Feature from "./Feature";
 
-import { bakePhotos, drinkPhotos, heroImg, sweetsPhotos } from "../utilities/photos";
+import { bakePhotos, drinkPhotos, sweetsPhotos } from "../utilities/photos";
 
 const HomeContent = () => {
   return (
