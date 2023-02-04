@@ -80,13 +80,12 @@
 }
 
 .social-icons {
-  grid-column: 6 / -2;
   list-style: none;
   cursor: pointer;
-
+  
   display: flex;
-  justify-content: space-around;
-
+  gap: 2rem;
+  
   li svg {
     width: 2.4rem;
     height: 2.4rem;
@@ -95,5 +94,9 @@
     &:hover{
       scale: 1.5;
     }
+  }
+  
+  &.f{
+    grid-column: 6 / -2;
   }
 }

@@ -55,7 +55,7 @@ const Footer = () => {
         © 2023 Saf Saf. All Rights Reserved. <br />
         Made with ❤ MAHMOUD FOUAD web developer.
       </div>
-      <SocialIcons/>
+      <SocialIcons footer={true}/>
     </footer>
   );
 };

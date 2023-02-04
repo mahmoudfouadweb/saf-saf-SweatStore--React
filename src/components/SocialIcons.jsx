@@ -3,9 +3,9 @@ import { FaTelegram } from "react-icons/fa"
 import { ImFacebook2 } from "react-icons/im"
 
 
-const SocialIcons = () => {
+const SocialIcons = ({footer}) => {
   return (
-    <ul className="social-icons">
+    <ul className={`social-icons ${footer ? 'f' : ''}`}>
         <li>
           <ImFacebook2 className="icon" />
         </li>

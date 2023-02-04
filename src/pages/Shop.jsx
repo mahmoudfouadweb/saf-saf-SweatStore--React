@@ -13,6 +13,7 @@ import cardImg1 from "../assets/gallery/bake/bake2.jpg";
 
 import { sweetsDeserts } from "../utilities/dummyData";
 import { drinkPhotos } from "../utilities/photos";
+import SocialIcons from "../components/SocialIcons";
 
 
 const Shop = ({ photos }) => {
@@ -88,11 +89,7 @@ const Shop = ({ photos }) => {
         </div>
 
         <h5 className="heading-5 follow">follow us</h5>
-        <div className="shop__sidebar--icon-box">
-          <AiFillFacebook className="shop__sidebar--icon" />
-          <FaInstagramSquare className="shop__sidebar--icon" />
-          <BsTwitter className="shop__sidebar--icon" />
-        </div>
+        <SocialIcons />
       </aside>
       <div className="shop__card--box">
         {isCategory.map((item) => (
