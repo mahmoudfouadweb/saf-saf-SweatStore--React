@@ -1,10 +1,11 @@
 import logo from "../assets/logo-1.png";
 
-import { ImLinkedin } from "react-icons/im";
+import { ImFacebook2 } from "react-icons/im";
 import { FaTelegram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
+import SocialIcons from "./SocialIcons";
 
 const Footer = () => {
   return (
@@ -54,23 +55,7 @@ const Footer = () => {
         © 2023 Saf Saf. All Rights Reserved. <br />
         Made with ❤ MAHMOUD FOUAD web developer.
       </div>
-      <ul className="footer__social-icons">
-        <li>
-          <ImLinkedin className="icon" />
-        </li>
-        <li>
-          <FaTelegram className="icon" />
-        </li>
-        <li>
-          <FaDiscord className="icon" />
-        </li>
-        <li>
-          <BsInstagram className="icon" />
-        </li>
-        <li>
-          <BsTwitter className="icon" />
-        </li>
-      </ul>
+      <SocialIcons/>
     </footer>
   );
 };

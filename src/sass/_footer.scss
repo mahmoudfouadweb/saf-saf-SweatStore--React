@@ -71,27 +71,29 @@
     grid-column: 1 / span 1;
   }
 
-  &__social-icons {
-    grid-column: 6 / -2;
-    list-style: none;
-    cursor: pointer;
 
-    display: flex;
-    justify-content: space-around;
-
-    li svg {
-      width: 2.4rem;
-      height: 2.4rem;
-      transition: all .4s;
-      
-      &:hover{
-        scale: 1.5;
-      }
-    }
-  }
 }
 
 .icon {
   width: 2.4rem;
   color: $color-primary-dark;
+}
+
+.social-icons {
+  grid-column: 6 / -2;
+  list-style: none;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-around;
+
+  li svg {
+    width: 2.4rem;
+    height: 2.4rem;
+    transition: all .4s;
+    
+    &:hover{
+      scale: 1.5;
+    }
+  }
 }
