@@ -6,8 +6,9 @@ import { ImFacebook2 } from "react-icons/im"
 const SocialIcons = ({footer}) => {
   return (
     <ul className={`social-icons ${footer ? 'f' : ''}`}>
-        <li>
-          <ImFacebook2 className="icon" />
+      <li>
+        <a href="https://www.facebook.com/safsaf.eg/"><ImFacebook2 className="icon" href="https://www.facebook.com/safsaf.eg/"/></a>
+          
         </li>
         <li>
           <FaTelegram className="icon" />
