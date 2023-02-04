@@ -7,7 +7,9 @@ const Glaty = () => {
     <img src={glaty} alt="" className="glaty__img" />
     <div className="glaty__box">
       <h4 className="heading-4">glaty</h4>
-      <h2 className="heading-2">Fresh glaty</h2>
+        <h2 className="heading-2">Fresh glaty</h2>
+        
+        
       <ul className="glaty__items">
         <li className="glaty__item">
           <p className="glaty__item--name">espresso</p>

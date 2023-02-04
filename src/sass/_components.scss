@@ -1368,13 +1368,13 @@
   transition: all 0.5s;
   transform: rotate(10deg);
   &:hover {
-    scale: 1.1;
+    scale: 1.2;
     transform: rotate(0);
   }
   &:nth-child(2) {
-    scale: 1.1;
     transform: rotate(-10deg);
     &:hover {
+      scale: 1.2;
       transform: rotate(0);
     }
   }

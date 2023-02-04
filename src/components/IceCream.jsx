@@ -28,6 +28,7 @@ const IceCream = ({ photos }) => {
         grabCursor={true}
         modules={[EffectCards]}
         rewind={true}
+        className="bake--box"
       >
         {photos
           .filter((item) => item.category === "bakes")
@@ -82,7 +83,6 @@ const IceCream = ({ photos }) => {
             </SwiperSlide>
           ))}
       </Swiper>
-
       <MenuSection photos={images} />
     </section>
   );
