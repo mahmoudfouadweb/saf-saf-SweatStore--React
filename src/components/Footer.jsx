@@ -1,17 +1,13 @@
-import logo from "../assets/logo-1.png";
+import { Link } from "react-router-dom";
+import Logo from "./Logo";
 
-import { ImFacebook2 } from "react-icons/im";
-import { FaTelegram } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa";
-import { BsInstagram } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
 import SocialIcons from "./SocialIcons";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__logo-box">
-        <img src={logo} alt="logo" className="logo" />
+        <Logo />
       </div>
       <p className="footer__text">
         اللي بنى الحلو في شبين كان في الأصل صف صف لأننا من سنة 1977
@@ -19,34 +15,34 @@ const Footer = () => {
 
       <ul className="footer__nav">
         <li className="footer__nav-item">
-          <a href="#" className="footer__nav-link">
+          <Link to={`/Home`} className="footer__nav-link">
             Home
-          </a>
+          </Link>
         </li>
         <li className="footer__nav-item">
-          <a href="#" className="footer__nav-link">
-            Community
-          </a>
+          <Link to={`/shop`} className="footer__nav-link">
+          shop
+          </Link>
         </li>
         <li className="footer__nav-item">
-          <a href="#" className="footer__nav-link">
-            Explore
-          </a>
+          <Link to={`/menu`} className="footer__nav-link">
+            menu
+          </Link>
         </li>
         <li className="footer__nav-item">
-          <a href="#" className="footer__nav-link">
-            Contact
-          </a>
+          <Link to={`/gallery`} className="footer__nav-link">
+          gallery
+          </Link>
         </li>
         <li className="footer__nav-item">
-          <a href="#" className="footer__nav-link">
-            Terms
-          </a>
+          <Link to={`/contact`} className="footer__nav-link">
+          contact us
+          </Link>
         </li>
         <li className="footer__nav-item">
-          <a href="#" className="footer__nav-link">
-            Privacy{" "}
-          </a>
+          <Link to={`/about`} className="footer__nav-link">
+            about us
+          </Link>
         </li>
       </ul>
       <div className="footer__line"></div>

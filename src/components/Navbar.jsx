@@ -1,11 +1,14 @@
 import logo1 from "../assets/logo-1.png";
 import { BsCart3 } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
+import Logo from "./Logo";
 
-const Navbar = ({ setParam }) => {
+const Navbar = () => {
   return (
     <nav className="nav">
-      <NavLink to={'/'}><img  src={logo1} alt="" className="nav__logo" /></NavLink>
+      <NavLink to={"/"}>
+        <Logo nav={true} />
+      </NavLink>
       <ul className="nav__items">
         <li className="nav__item">
           <NavLink exact={"true"} to={"/"} className="nav__link">

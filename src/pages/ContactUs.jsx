@@ -1,16 +1,16 @@
-import logo from "../assets/small-img/logo-full-light.png";
 import branch2 from "../assets/orgnized/safsaf2.jpg";
 import branch3 from "../assets/orgnized/safsaf3.jpg";
 import branch4 from "../assets/orgnized/safsaf4.jpg";
 
 import MapL from "../components/MapL";
 import PageTitle from "../components/PageTitle";
+import JoinForm from "../components/JoinForm";
 
 const ContactUs = () => {
   return (
     <main className="z">
-        <PageTitle title={"Contact Us"} />
-      
+      <PageTitle title={"Contact Us"} />
+
       <section className="z__about">
         <h4 className="heading-4">elegant</h4>
         <h2 className="heading-2">Saf Saf</h2>
@@ -62,27 +62,7 @@ const ContactUs = () => {
       <MapL />
 
       <section className="contact__join-us">
-        <img src={logo} alt="" className="join-us__logo" />
-
-        <p className="join-us__mail-content">
-          Join 50,000+ client and don't miss an event or a discount!
-        </p>
-        <form action="" className="contact__join-us__form">
-          <input
-            type="text"
-            className="join-us__form--name"
-            placeholder="Your name here"
-          />
-          <input
-            type="text"
-            className="join-us__form--email"
-            placeholder="Your e-mail here"
-          />
-          <button className="join-us__form--cta">
-            send
-            <span></span>
-          </button>
-        </form>
+        <JoinForm />
       </section>
     </main>
   );
