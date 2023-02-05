@@ -6,7 +6,7 @@ const MenuSection = ({ photos, menuPhotos, side }) => {
       <ul className={`menu__card--box ${side ? "side" : ""}`}>
         {photos &&
           photos.map((item) => (
-            <li style={{ listStyle: "none" }}>
+            <li style={{ listStyle: "none" }} key={item.key}>
               <Link
                 className="menu__card"
                 to={`/item/${item.key}`}
@@ -28,7 +28,7 @@ const MenuSection = ({ photos, menuPhotos, side }) => {
           ))}
         {menuPhotos &&
           menuPhotos.slice(0, 10).map((item) => (
-            <li style={{ listStyle: "none" }}>
+            <li style={{ listStyle: "none" }} key={item.key}>
               <Link
                 className="menu__card"
                 to={`/item/${item.key}`}

@@ -686,6 +686,10 @@
     &--number {
       font-size: 1.4rem;
     }
+    &--text {
+      margin-top: 2rem;
+      font-size: 1.6rem;
+    }
 
     .cta {
       margin-top: 2.5rem;
@@ -783,7 +787,7 @@
   background-image: url("../assets/orgnized/accordion.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 35vw;
+  min-height: 35vw;
 
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -949,6 +953,7 @@
   /////////////////////////////
   /// Shop Card Box
   &__card {
+    text-decoration: none;
     display: grid;
     grid-template-columns: minmax(min-content, 15vw);
     align-items: center;
@@ -1278,6 +1283,7 @@
     gap: 3rem;
 
     &--card {
+      text-decoration: none;
       background-color: $color-grey-light-1;
       display: grid;
       width: 100%;

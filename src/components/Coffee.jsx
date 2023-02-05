@@ -11,7 +11,7 @@ const Coffee = () => {
         <MenuSection menuPhotos={drinkPhotos} side={true} />
           <button className="cta btn-primary">view more</button>
         </div>
-        <img src={coffee} alt="" className="coffee__img" />
+        <img src={coffee} alt="coffee" className="coffee__img" />
       </section>
 
   )
