@@ -27,7 +27,7 @@ const MenuSection = ({ photos, menuPhotos, side }) => {
             </li>
           ))}
         {menuPhotos &&
-          menuPhotos.slice(0, 10).map((item) => (
+          menuPhotos.slice(0, 5).map((item) => (
             <li style={{ listStyle: "none" }} key={item.key}>
               <Link
                 className="menu__card"

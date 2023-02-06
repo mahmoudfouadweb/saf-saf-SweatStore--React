@@ -42,7 +42,7 @@ const IceCream = ({ photos }) => {
             </SwiperSlide>
           ))}
       </Swiper>
-      <h3 className="heading-3 drinks">drinks and ice cream</h3>
+      <h3 className="heading-3 drinks">drinks ice</h3>
       <Swiper
         effect={"cards"}
         grabCursor={true}

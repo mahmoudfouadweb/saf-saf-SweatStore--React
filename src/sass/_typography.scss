@@ -13,7 +13,7 @@
 
 .heading-2 {
     @extend %heading;
-    font-size: 4.8rem;
+    font-size: clamp(2.2rem,3.8vw,4.8rem);
     font-weight: 500;
     text-transform: uppercase;
     line-height: 1;
@@ -26,7 +26,8 @@
 .heading-3 {
     @extend %heading;
     
-     font-size: 4.4rem; // 2.9rem
+    //  font-size: 4.4rem; // 2.9rem
+     font-size: clamp(2.6rem,2vw,4.4rem);
      font-weight: 700;
      color: $color-primary-dark;
     text-transform: uppercase;
@@ -44,7 +45,8 @@
 
 .heading-5 {
     @extend %heading;
-    font-size: 1.8rem; //2rem
+    font-size: clamp(1rem, 1vw, 1.8rem);
+
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -60,23 +62,6 @@
 p{
     color: $color-secondary;
 }
-
-// .btn {
-//     background-color: $color-bg-pr                                                                              ary;
-//     color: #fff;
-//     border: none;
-//     border-radius: 0;
-//     // font-family: $font-display;
-//     font-size: 1.5rem;
-//     text-transform: uppercase;
-//     padding: 1.8rem 3rem;
-//     cursor: pointer;
-//     transition: all .2s;
-
-//     &:hover {
-//         background-color: $color-bg-primary-dark;
-    // }
-// }
 
 .mb-sm { margin-bottom: 2rem; }
 .mb-md { margin-bottom: 3rem; }
