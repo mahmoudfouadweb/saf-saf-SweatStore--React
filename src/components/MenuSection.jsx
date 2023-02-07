@@ -19,8 +19,8 @@ const MenuSection = ({ photos, menuPhotos, side }) => {
                 />
                 <h6 className="heading-6">
                   {item.title}
-                  <span> ................................ </span>
-                  <span className="bold">{item.price}$</span>
+                  {/* <span> ................................ </span> */}
+                  {/* <span className="bold">{item.price}$</span> */}
                 </h6>
                 <p className="menu__card--text">{item.text}</p>
               </Link>
