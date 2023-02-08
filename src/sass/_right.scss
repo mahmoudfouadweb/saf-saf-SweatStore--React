@@ -1,0 +1,15 @@
+.right {
+  grid-column: 1 / -1;
+
+  &__img {
+    grid-column: 2 / span 1;
+  }
+
+  &__box {
+    grid-column: 1 / span 1;
+    
+    &--contact{
+      grid-column: 2 / span 1;
+    }
+  }
+}

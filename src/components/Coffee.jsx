@@ -4,17 +4,16 @@ import MenuSection from "./MenuSection";
 
 const Coffee = () => {
   return (
-    <section className="coffee">
-        <div className="coffee__box">
-          <h4 className="heading-4">we are open</h4>
-          <h2 className="heading-2">working hours</h2>
+    <section className="section right">
+      <div className="section__box right__box">
+        <h4 className="heading-4">we are open</h4>
+        <h2 className="heading-2">working hours</h2>
         <MenuSection menuPhotos={drinkPhotos} side={true} />
-          <button className="cta btn-primary">view more</button>
-        </div>
-        <img src={coffee} alt="coffee" className="coffee__img" />
-      </section>
+        <button className="cta">view more</button>
+      </div>
+      <img src={coffee} alt="coffee" className="section__img right__img" />
+    </section>
+  );
+};
 
-  )
-}
-
-export default Coffee
+export default Coffee;

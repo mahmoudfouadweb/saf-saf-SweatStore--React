@@ -49,87 +49,7 @@
 
 // //////////////////////////////////////////////////////
 /// Glaty
-.glaty {
-  grid-column: 1 / -1;
-  display: grid;
-  grid-template-columns: 50% 1fr;
-
-  @media only screen and (max-width: 480px) {
-    grid-template-columns: 1fr;
-  }
-
-  &__img {
-    grid-column: 1 / span 1;
-
-    max-width: 100%;
-    object-fit: fill;
-    @media only screen and (max-width: 480px) {
-      grid-column: 1 / -1;
-    }
-  }
-
-  &__box {
-    grid-column: 2 / -1;
-
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    // align-content: center;
-    margin: auto;
-    @media only screen and (max-width: 480px) {
-      grid-column: 1 / -1;
-    }
-    .heading-4 {
-      grid-column: 1 / -1;
-      text-align: center;
-      color: #ddd;
-      // margin-bottom: 1rem;
-    }
-
-    .heading-2 {
-      grid-column: 1 / -1;
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-  }
-
-  &__items {
-    grid-column: 2 / -2;
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    row-gap: 2.5rem;
-    margin-top: 2rem;
-
-    .glaty__item {
-      display: grid;
-      max-width: 80%;
-      grid-template-columns: repeat(2, max-content);
-      justify-content: space-between;
-      list-style: none;
-
-      &--name {
-        grid-column: 1 / span 1;
-        font-size: 1.4rem;
-        font-weight: 500;
-        text-transform: uppercase;
-      }
-
-      span {
-        display: block;
-        grid-column: 2 / -1;
-        font-size: 1.4rem;
-        font-weight: 500;
-        justify-self: end;
-      }
-
-      &--details {
-        text-transform: lowercase;
-        grid-column: 1 / -1;
-        font-size: 1.2rem;
-        color: $color-grey-light-2;
-      }
-    }
-  }
-}
+///
 
 // //////////////////////////////////////////////////////
 /// Ice-cream
@@ -236,93 +156,7 @@
 }
 
 /// Coffee
-.coffee {
-  grid-column: 1 / -1;
-  display: grid;
-  grid-template-columns: 50% 1fr;
 
-  @media only screen and (max-width: 480px) {
-    grid-template-columns: 1fr;
-  }
-
-  &__img {
-    grid-column: 2 / -1;
-
-    max-width: 100%;
-    object-fit: fill;
-    @media only screen and (max-width: 480px) {
-      grid-column: 1 / -1;
-      order: -1;
-    }
-  }
-
-  &__box {
-    grid-column: 1 / span 1;
-
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    align-content: center;
-    @media only screen and (max-width: 480px) {
-      grid-column: 1 / -1;
-    }
-    // margin-left: 5rem;
-    .heading-4 {
-      grid-column: 1 / -1;
-      text-align: center;
-      color: #ddd;
-      margin-bottom: 1rem;
-    }
-
-    .heading-2 {
-      grid-column: 1 / -1;
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    button {
-      grid-column: 1 / -1;
-      justify-self: center;
-      // margin-top: 6rem;
-    }
-  }
-
-  &__items {
-    grid-column: 2 / -2;
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    row-gap: 2.5rem;
-    margin-top: 2rem;
-
-    .coffee__item {
-      display: grid;
-      max-width: 80%;
-      grid-template-columns: repeat(2, max-content);
-      justify-content: space-between;
-      list-style: none;
-
-      &--name {
-        grid-column: 1 / span 1;
-        font-size: 1.4rem;
-        font-weight: 500;
-        text-transform: uppercase;
-      }
-
-      span {
-        display: block;
-        grid-column: 2 / -1;
-        font-size: 1.4rem;
-        font-weight: 500;
-        justify-self: end;
-      }
-
-      &--details {
-        text-transform: lowercase;
-        grid-column: 1 / -1;
-        font-size: 1.2rem;
-        color: $color-grey-light-2;
-      }
-    }
-  }
-}
 
 //////////////////////////////////
 /// Testimonials
@@ -687,88 +521,7 @@
     }
   }
 
-  &__section {
-    grid-column: 1 / -1;
-
-    display: grid;
-    grid-template-columns: [start] repeat(5, 1fr) [center] repeat(5, 1fr) [end];
-    justify-content: center;
-    align-items: center;
-
-    @media only screen and (max-width: 480px) {
-      grid-template-columns: repeat(5, 1fr);
-      grid-column: 1 / -1;
-    }
-
-    &--img {
-      grid-column: start / center;
-      grid-row: 1 / -1;
-      max-width: 100%;
-      height: auto;
-      justify-self: start;
-
-      @media only screen and (max-width: 480px) {
-        grid-column: 1 / -1;
-      }
-
-      &.r {
-        grid-column: center / end;
-      }
-    }
-
-    &--box {
-      grid-column: center / end;
-
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1.4rem;
-
-      @media only screen and (max-width: 480px) {
-        grid-column: 1 / -1;
-      }
-
-      &.r {
-        grid-column: start / center;
-      }
-    }
-
-    .heading-4 {
-      grid-column: center / end-right;
-
-      &.r {
-        grid-column: start / center;
-      }
-    }
-    .heading-2 {
-      grid-column: center / end-right;
-
-      &.r {
-        grid-column: start / center;
-      }
-    }
-
-    &--location {
-      font-size: 1.4rem;
-      text-align: center;
-    }
-
-    &--email {
-      font-size: 1.4rem;
-    }
-
-    &--number {
-      font-size: 1.4rem;
-    }
-    &--text {
-      margin-top: 2rem;
-      font-size: 1.6rem;
-    }
-
-    .cta {
-      margin-top: 2.5rem;
-    }
-  }
+ 
 }
 
 .leaflet {
@@ -1131,10 +884,10 @@
 ///////////////////////////////////////////
 /// Menu
 .menu {
-  grid-column: 1 / -1;
-  display: grid;
-  grid-template-columns: [start] repeat(10, minmax(min-content, 1fr)) [end];
-  row-gap: 1rem;
+  // grid-column: 1 / -1;
+  // display: grid;
+  // grid-template-columns: [start] repeat(10, minmax(max-content, 1fr)) [end];
+  // row-gap: 1rem;
 
   .heading-4 {
     grid-column: 2 / -1;
@@ -1148,9 +901,9 @@
     text-align: center;
   }
 
-  .column-start {
-    grid-column: 1 / -1 !important;
-  }
+  // .column-start {
+  //   grid-column: 1 / -1 !important;
+  // }
 
   &__text {
     grid-column: 4 /-4;
@@ -1161,60 +914,83 @@
   }
 
   &__section {
-    // border: 1px solid red;
-    margin: auto;
     grid-column: 1 / -1;
-    // margin-bottom: 8rem;
-    margin-top: 4vw;
-    padding-bottom: 4vw;
+    min-width: max-content;
+
+    // border: 1px solid green;
+    // background-color: rgba(255, 68, 0, 0.572);
+    // width: 100%;
+    // margin: auto;
+    // width: max-content;
+    // padding-left: 6vw;
+    // margin-top: 2vw;
+    padding: 4vw 0;
 
     display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
+    grid-template-columns: repeat(10, 1fr);
+
+    @media only screen and (max-width: 860px) {
+      padding-left: 0;
+      margin: 0 auto;
+    }
   }
 
   &__card {
-    max-width: 100%;
+    border: 1px solid red;
+
+    min-width: max-content;
     color: $color-secondary;
     text-decoration: none;
     display: grid;
-    grid-template-columns: repeat(minmax(6vw, 8vw));
+    grid-template-columns: repeat(2, minmax(min-content, 8vw));
     column-gap: 1rem;
     align-items: center;
     justify-items: start;
     cursor: pointer;
 
     @media only screen and (max-width: 860px) {
-      grid-template-columns: repeat(2, minmax(6vw, 8vw));
+      grid-template-columns: repeat(2, minmax(4vw, 5vw));
     }
-    
+
     @media only screen and (max-width: 400px) {
       grid-template-columns: repeat(1, minmax(20vw, 25vw));
     }
-    
-    &--box {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(20rem, 1fr));
-      row-gap: 2vw;
-      justify-content: space-evenly;
-      column-gap: 8vw;
-      // margin-top: 4rem;
 
+    &--box {
+      grid-column: 1 / -1;
+      min-width: max-content;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: start;
+      margin: 0 auto;
+      padding: 0;
+      row-gap: 4vw;
+      column-gap: max(8vw);
+      
+      border: 1px dashed greenyellow;
+
+      li {
+        min-width: 100%;
+      }
+      
       @media only screen and (max-width: 715px) {
         column-gap: 0;
         margin-top: 8vw;
       }
 
       @media only screen and (max-width: 860px) {
-        grid-template-columns: repeat(2, minmax(20rem, 1fr));
+        grid-template-columns: repeat(2, minmax(max-content, 30vw));
+        justify-items: center;
+        margin: 0 auto;
+        column-gap: 10vw;
       }
-      
+
       @media only screen and (max-width: 400px) {
         grid-template-columns: repeat(1, minmax(max-content, 1fr));
       }
 
       &.side {
-        grid-template-columns: repeat(2, minmax(15rem, 15vw));
+        grid-template-columns: repeat(2, 1fr);
         margin-top: 0;
       }
     }
